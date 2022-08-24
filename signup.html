@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/signup.css">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="signup">
+
+      <div id="buffer_logo">
+        <img src="https://static.buffer.com/login/public/img/buffer-logo.svg" alt="">
+      </div>
+      <div id="signup_div">
+        <div>
+          <h1>Let's get your account set up</h1>
+          <label for="">Email</label>
+          <input type="Email" id="email">
+          <label for="">Create a Password</label>
+          <input type="password" name="" id="password">
+          <div id="not_robot">
+            <div> <input type="checkbox" id="checkbox" value="no">
+              <h4>I'm not a robot</h4>
+            </div>
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/225px-RecaptchaLogo.svg.png"
+                alt="">
+              <p>Privacy - Terms</p>
+            </div>
+
+          </div>
+          <div class="Package_free">
+            <div>
+              <h2>The Full Package</h2>
+              <p>Unlimited use of our publishing, analytics, and engagement tools</p>
+            </div>
+            <div>
+              <button class="signup_btn" id="btn1" onclick="signup()">Start Free Trial</button>
+            </div>
+          </div>
+          <div class="Package_free">
+            <div>
+              <h2>Free</h2>
+              <p>For individuals getting started with social media </p>
+            </div>
+            <div>
+              <button class="signup_btn" id="btn2" onclick="signup()">Sign Up</button>
+            </div>
+          </div>
+          <div id="term_condition">
+            <p>I agree to <a href="#"> Buffer's Terms of Service</a></p>
+            <a href="login.html">Already have an account?</a>
+          </div>
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+    <!-- remove after min screen -->
+    <div id="sign_image">
+
+      <div id="signup_testimonial">
+        <div>
+          <h3>“With Buffer I can build social content out as far as I want into the future but also tailor campaigns if
+            we see certain trends within the industry.”</h3>
+        </div>
+        <div>
+          <img src="https://static.buffer.com/login/public/img/signup-avatar-publish.png" alt="">
+          <div>Justin Ozanich</div>
+          <div>Marketing Manager</div>
+          <div>Foster Coffee Company</div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
+<script src="./scripts/signup.js"></script>
