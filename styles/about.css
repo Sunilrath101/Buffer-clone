@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: Roboto sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#pink{
+    height:42rem;
+    background-color: rgb(249, 149, 166);
+}
+#pink>div:nth-child(1){
+    font-size:28px;
+    text-align: center;
+    padding-top:45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+#pink>div:nth-child(2){
+    text-align: center;
+}
+#pink>div>img{
+    width:45%;
+    
+}
+#para{
+    width:45%;
+    margin:auto;
+    margin-top:90px;
+    font-family: Roboto, sans-serif;
+
+}
+#para>p{
+    font-size: 23px;
+}
+#btn{
+    height:45px;
+    width:14%;
+    margin:auto;
+    margin-top:80px;
+    background-color:rgb(44, 75, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius:7px;
+}
+#btn:hover{
+    background-color:rgb(23, 23, 143) ;
+    color: white;
+}
+#btn>a{
+    color: white;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+#numcolor{
+    margin-top:120px;
+    display:flex;
+    background-color: rgb(234, 242, 247);
+    justify-content: space-evenly;
+    align-items: center;
+}
+#numcolor>div>h1{
+    font-size: 70px;
+    
+}
+#numcolor>div>p{
+    font-size: 30px;
+}
+#numcolor>div{
+    text-align: center;
+}
+#numcolor>div>#first{
+    color:rgb(135, 205, 24)
+    
+}
+#numcolor>div>#second{
+    color:rgb(247, 208, 51);
+    
+}
+#numcolor>div>#third{
+    color:palevioletred
+    
+}
+#head{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+#brand{
+    width:70%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap:30px;
+}
+#brand>div{
+    color:rgba(13, 12, 12, 0.546);
+    text-align: center;
+    font-size: 21px;
+    font-family: Roboto, sans-serif;
+    
+    letter-spacing: 0.1px;
+}
+#brand>div>img{
+    width:80%;
+    
+}
+#our_values{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    margin-top:100px;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+}
+#our_next>div,select{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    margin-top:50px;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+}
+select{
+    margin-top:50px;
+    width:50%;
+    margin-left:24rem;
+    border:none;
+}
+#full_img{
+    margin-top:90px;
+}
+#full_img>img{
+    width: 100%;
+    height: 520px;
+    
+}
+#trans>h2{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    margin-top:120px;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+}
+#trans>p{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    margin-top:40px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+
+}
+#salaries{
+    width:80%;
+    margin:auto;
+    margin-top:70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+}
+#salaries>div>h2{
+    font-family: Poppins, sans-serif;
+
+}
+#salaries>div>p{
+    font-family: Roboto, sans-serif;
+    
+}
+#salaries>div>svg{
+    width:30%;
+    height:70px;
+    background-color:white ;
+}
+#team>h2{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    margin-top:180px;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+
+}
+#team>p{
+    width:50%;
+    margin:auto;
+    text-align: left;
+    margin-top:40px;
+    font-size: 23px;
+    font-family: Roboto, sans-serif;
+
+}
+#three_img{
+    text-align: center;
+    margin-top:80px;
+
+}
+#btn1{
+    height:45px;
+    width:14%;
+    margin:auto;
+    margin-top:100px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+    border-radius:7px;
+    border:1px solid blue;
+    margin-bottom:120px;
+}
+#btn1:hover{
+    background-color:rgb(135, 163, 242) ;
+}
+#btn1>a{
+    color: blue;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+/* medium screen */
+@media all and  (min-width: 812px) and (max-width: 1100px){
+    #pink{
+        height:38rem;
+        background-color: rgb(249, 149, 166);
+    }
+    #pink>div:nth-child(1){
+        font-size:14px;
+        text-align: center;
+        padding-top:45px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    #pink>div:nth-child(2){
+        text-align: center;
+    }
+    #pink>div>img{
+        width:70%;
+        
+    }
+    #para{
+        width:80%;
+        margin:auto;
+        margin-top:40px;
+        font-family: Roboto, sans-serif;
+    
+    }
+    #para>p{
+        font-size: 16px;
+    }
+    #btn{
+        height:40px;
+        width:20%;
+        margin:auto;
+        margin-top:40px;
+        background-color:rgb(44, 75, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        border-radius:4px;
+    }
+    #btn:hover{
+        background-color:rgb(23, 23, 143) ;
+        color: white;
+    }
+    #btn>a{
+        color: white;
+        font-size: 16px;
+        text-decoration-line: none;
+    }
+    #numcolor{
+        width:80%;
+        margin:auto;
+        margin-top:50px;
+        display:flex;
+        background-color: rgb(234, 242, 247);
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #numcolor>div>h1{
+        font-size: 50px;
+        
+    }
+    #numcolor>div>p{
+        font-size: 30px;
+    }
+    #numcolor>div{
+        text-align: center;
+    }
+    #numcolor>div>#first{
+        color:rgb(135, 205, 24)
+        
+    }
+    #numcolor>div>#second{
+        color:rgb(247, 208, 51);
+        
+    }
+    #numcolor>div>#third{
+        color:palevioletred
+        
+    }
+    #head{
+        text-align: center;
+        margin-top: 45px;
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #brand{
+        width:80%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        gap:25px;
+    }
+    #brand>div{
+        color:rgba(13, 12, 12, 0.546);
+        text-align: center;
+        font-size: 13px;
+        font-family: Roboto, sans-serif;
+        
+        letter-spacing: 0.1px;
+    }
+    #brand>div>img{
+        width:80%;
+        
+    }
+    #our_values{
+        width:60%;
+        margin:auto;
+        text-align: left;
+        margin-top:60px;
+        font-size: 30px;
+        font-family: Poppins, sans-serif;
+       
+    }
+    #our_next>div,select{
+        width:60%;
+        text-align: center;
+        margin:auto;
+        text-align: left;
+        margin-top:20px;
+        font-size: 17px;
+        font-family: Roboto, sans-serif;
+        display:grid;
+        /* align-items: center;
+        justify-content: center;
+        margin-left:200px; */
+      
+    }
+    select{
+        margin-top:20px;
+        width:30%;
+        margin-left:21rem;;
+        border:none;
+
+    }
+    #full_img{
+        text-align: center;
+        margin:auto;
+        margin-top:40px;
+
+    }
+    #full_img>img{
+        width: 100%;
+        height: 350px;
+        
+    }
+    #trans>h2{
+        width:60%;
+        margin:auto;
+        text-align: left;
+        margin-top:50px;
+        font-size: 25px;
+        font-family: Poppins, sans-serif;
+    }
+    #trans>p{
+        width:60%;
+        margin:auto;
+        text-align: left;
+        margin-top:20px;
+        font-size: 15px;
+        font-family: Roboto, sans-serif;
+    
+    }
+    #salaries{
+        width:80%;
+        margin:auto;
+        margin-top:50px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:20px;
+    }
+    #salaries>div>h2{
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+    
+    }
+    #salaries>div>p{
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        
+    }
+    #salaries>div>svg{
+        width:42%;
+        height:60px;
+        background-color:white ;
+    }
+    #team>h2{
+        width:60%;
+        margin:auto;
+        text-align: left;
+        margin-top:50px;
+        font-size: 25px;
+        font-family: Poppins, sans-serif;
+    
+    }
+    #team>p{
+        width:60%;
+        margin:auto;
+        text-align: left;
+        margin-top:20px;
+        font-size: 15px;
+        font-family: Roboto, sans-serif;
+    
+    }
+    #three_img{
+        margin-top:35px;
+
+    }
+    #three_img>img{
+        width:60%;
+        text-align: center;  
+    
+    }
+    #btn1{
+        height:40px;
+        width:20%;
+        margin:auto;
+        margin-top:50px;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:blue;
+        border-radius:5px;
+        border:1px solid blue;
+        margin-bottom:45px;
+    }
+    #btn1:hover{
+        background-color:rgb(135, 163, 242) ;
+    }
+    #btn1>a{
+        color: blue;
+        font-size: 15px;
+        text-decoration-line: none;
+    }
+
+    
+}
+/* small screen */
+@media all and (min-width:320px) and (max-width:811px){
+    #pink{
+        height:27rem;
+        background-color: rgb(249, 149, 166);
+    }
+    #pink>div:nth-child(1){
+        font-size:13px;
+        text-align: center;
+        padding-top:20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    #pink>div:nth-child(2){
+        text-align: center;
+    }
+    #pink>div>img{
+        width:66%;
+        
+    }
+    #para{
+        width:80%;
+        margin:auto;
+        margin-top:35px;
+        font-family: Roboto, sans-serif;
+    
+    }
+    #para>p{
+        font-size: 15px;
+    }
+    #btn{
+        height:40px;
+        width:25%;
+        margin:auto;
+        margin-top:40px;
+        background-color:rgb(44, 75, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        border-radius:2px;
+    }
+    #btn:hover{
+        background-color:rgb(23, 23, 143) ;
+        color: white;
+    }
+    #btn>a{
+        color: white;
+        font-size: 15px;
+        text-decoration-line: none;
+    }
+    #numcolor{
+        width:100%;
+        margin:auto;
+        margin-top:40px; 
+        display:grid;
+        background-color: rgb(234, 242, 247);
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+    #numcolor>div>h1{
+        font-size: 105px;
+        
+    }
+    #numcolor>div>p{
+        font-size: 30px;
+    }
+    #numcolor>div{
+        text-align: center;
+    }
+    #numcolor>div>#first{
+        color:rgb(135, 205, 24)
+        
+    }
+    #numcolor>div>#second{
+        color:rgb(247, 208, 51);
+        
+    }
+    #numcolor>div>#third{
+        color:palevioletred
+        
+    }
+    #head{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        margin-top: 45px;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #brand{
+        width:80%;
+        margin:auto;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        gap:20px;
+    }
+    #brand>div{
+        color:rgba(13, 12, 12, 0.546);
+        text-align: center;
+        font-size: 10px;
+        font-family: Roboto, sans-serif;
+        
+        letter-spacing: 0.1px;
+    }
+    #brand>div>img{
+        width:90%;
+        
+    }
+    #our_values{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        margin-top:40px;
+        font-size: 25px;
+        font-family: Poppins, sans-serif;
+    }
+    #our_next>div,select{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        margin-top:30px;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+    }
+    select{
+        margin-top:30px;
+        width:45%;
+        margin-left:12rem;
+        border:none;
+        text-align: left;
+    }
+    #full_img{
+        text-align: center;
+        margin:auto;
+        margin-top:50px;
+
+    }
+    #full_img>img{
+        width: 100%;
+        height: 250px;
+        
+    }
+    #trans>h2{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        margin-top:40px;
+        font-size: 20px;
+        font-family: Poppins, sans-serif;
+    }
+    #trans>p{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        margin-top:25px;
+        font-size: 15px;
+        font-family: Roboto, sans-serif;
+    
+    }
+    #salaries{
+        width:80%;
+        text-align: center;
+        margin:auto;
+        margin-top:40px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    #salaries>div>h2{
+        text-align: center;
+        margin: auto;
+        font-family: Poppins, sans-serif;
+        font-size: 15px;
+    
+    }
+    #salaries>div>p{
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        
+    }
+    #salaries>div>svg{
+        width:50%;
+        height:60px;
+        text-align: center;
+        margin:auto;
+        background-color:white ;
+    }
+    #team>h2{
+        width:25%;
+        margin:auto;
+        text-align: center;
+        margin-top:30px;
+        font-size: 30px;
+        font-family: Poppins, sans-serif;
+    
+    }
+    #team>p{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        margin-top:25px;
+        font-size: 15px;
+        font-family: Roboto, sans-serif;
+    
+    }
+    #three_img{
+        margin-top:35px;
+
+    }
+    #three_img>img{
+        width:80%;
+        text-align: center;  
+    
+    }
+    #btn1{
+        height:40px;
+        width:35%;
+        margin:auto;
+        margin-top:50px;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:blue;
+        border-radius:3px;
+        border:1px solid blue;
+        margin-bottom:35px;
+    }
+    #btn1:hover{
+        background-color:rgb(135, 163, 242) ;
+    }
+    #btn1>a{
+        color: blue;
+        font-size: 16px;
+        text-decoration-line: none;
+    }
+
+    
+}
+   
+
+
+
+
