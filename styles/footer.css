@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    line-height: 1.8;
+}
+
+/* Footer Section */
+
+#footer{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer > #footer_div{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 1248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px;
+    margin: 65px 0;
+}
+#footer > #footer_div > #f_div_boxes{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#footer > #footer_div > #f_div_boxes > #f_box1{
+    /* border: 2px solid red; */
+    width: 36%;
+    height: 300px;
+}
+#footer > #footer_div > #f_div_boxes > #f_box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#footer > #footer_div > #f_div_boxes > #f_box1 > #f_logo > img{
+    width: 50%;
+}
+.icons{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.icons >  a{
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+#f_btns{
+    margin: 15px 0;
+}
+#f_btns > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border: 1px solid #2C4BFF;
+    padding: 7px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #2C4BFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+#f_btns > a:hover{
+    background: #d7dcfb;
+}
+#f_btns+p{
+    font-size: 12px;
+}
+.f_box2{
+    /* border: 2px solid red; */
+    width: 26%;
+    height: 100%;
+}
+.f_box2 > ul >li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.f_box2 > ul >li~:hover{
+    color: #2C4BFF;
+    cursor: pointer;
+}
+.f_box2 > ul >li:nth-child(1){
+    list-style: none;
+    font-weight: 700;
+}
