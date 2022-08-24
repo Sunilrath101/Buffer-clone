@@ -1,0 +1,63 @@
+/* Section - 9 */
+
+#section-9{
+    /* border: 2px solid black; */
+    height: 450px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2C4BFF;
+}
+#mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mid > #box1{ 
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 20%;
+    background-image: url(/resources/triangle-green.svg), url(/resources/planet@2x.png), url(/resources/circle-pink.svg);
+    background-repeat: no-repeat;
+    background-size: 40px, 180px, 60px;
+    background-position: 120px 75px, -55px 160px, 88px 105%;
+}
+#mid > #box2{ 
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 20%;
+    background-image: url(/resources/circle-brush@2x.png), url(/resources/lines-orange.svg), url(/resources/triangle-yellow.svg);
+    background-repeat: no-repeat;
+    background-size: 40px, 180px, 26px;
+    background-position: 0px 30px, 137px 110px, 165px 246px;
+}
+#mid > #box3{ 
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mid > #box3 > #content{
+    height: auto;
+    /* border: 2px solid white; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#mid > #box3 > #content > h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+#mid > #box3 > #content > a{
+    background-color: #e97284;
+    color: white;
+    width: 190px;
+    margin-top: 50px;
+}
