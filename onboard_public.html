@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/onboard_public.css">
+  <script src="https://use.fontawesome.com/7077e17e6b.js"></script>
+  <link rel="stylesheet" href="./styles/modals.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Publishing </title>
+</head>
+
+<body>
+  <div id="onoboarding_container">
+
+
+    <div id="div_1">
+      <h1>Get started with Publishing 📅</h1>
+      <p>Connect a channel to plan, create and schedule content.
+        You can always add one later.</p>
+    </div>
+    <div id="div_2">
+      <button>
+        <img src="./resources/Publishing/tiktok.png" alt="">
+        <h3>TikTok</h3>
+        <p>Business Account</p>
+
+      </button>
+      <button> <img src="./resources/Publishing/google.png" alt="">
+        <h3>Google Business Profile</h3>
+        <p>Business Account</p>
+      </button>
+      <button> <img src="./resources/Publishing/insta.png" alt="">
+        <h3>Instagram</h3>
+        <p>Business Account</p>
+      </button>
+      <button> <img src="./resources/Publishing/face.png" alt="">
+        <h3>Facebook</h3>
+        <p>Page or Group</p>
+      </button>
+      <button>
+        <img src="./resources/Publishing/twiiter.png" alt="">
+        <h3>Twitter</h3>
+        <p>Profile</p>
+
+      </button>
+      <button class="show-modal"> <img src="./resources/Publishing/linkdin.png" alt="">
+        <h3>Linkedin</h3>
+        <p>Page or Profile</p>
+      </button>
+      <button> <img src="./resources/Publishing/pin.png" alt="">
+        <h3>Pinterest</h3>
+        <p>Profile</p>
+      </button>
+      <button> <img src="./resources/Publishing/shopify.png" alt="">
+        <h3>Shopify</h3>
+        <p>Store</p>
+      </button>
+    </div>
+
+    <div id="div_3">
+      <a href="#">Connect later,explore first</a>
+    </div>
+  </div>
+  <!-- modal start -->
+  <div class="modal hidden">
+    <div class="moda_div1">
+      <h1>Select Linkedin account type</h1>
+      <button class="close-modal">&times;</button>
+    </div>
+    <div class="moda_div2">
+      <p>Check out our <a href="#"> guide</a> to supported account types for more details.</p>
+      <div>
+        <div>
+          <input type="checkbox">
+        </div>
+        <div class="checkbox_next">
+          <div>
+            <h3>LinkedIn Page</h3>
+            <i class="fa-solid fa-flag"></i>
+          </div>
+          <p>A company profile that LinkedIn users can follow</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <input type="checkbox">
+        </div>
+        <div class="checkbox_next">
+          <div>
+            <h3>LinkedIn Profile</h3>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <p>A profile that showcases an individual’s professional experience</p>
+        </div>
+      </div>
+    </div>
+    <div class="moda_div3">
+      <button id="btnClose">Cancel</button>
+      <button>Start Connecting</button>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+  <!-- odal over -->
+
+</body>
+
+</html>
+<script src="./scripts/modals.js"></script>

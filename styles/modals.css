@@ -1,0 +1,141 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  max-width: 600px;
+  height: auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.moda_div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.moda_div1 > h1 {
+  margin: 2px 15px 5px 4px;
+}
+.moda_div3 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.moda_div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+  background-color: rgb(248, 234, 234);
+}
+.moda_div2 > p:nth-child(1) {
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.moda_div2 > div:nth-child(2) {
+  border: 1px solid rgba(48, 153, 228, 0.922);
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.moda_div2 > div:nth-child(3) {
+  border: 1px solid rgba(48, 153, 228, 0.922);
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.moda_div2 input {
+  border-radius: 15px;
+  margin-left: 20px;
+}
+.checkbox_next {
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  margin-left: 30px;
+}
+.checkbox_next > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 30px;
+}
+.checkbox_next > p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.checkbox_next > div > i {
+  margin-left: 15px;
+}
+
+.moda_div3 > button {
+  margin-right: 7px;
+  padding: 14px 15px;
+  border-radius: 5px;
+  font-size: medium;
+  cursor: pointer;
+}
+.moda_div3 > button:nth-child(1) {
+  border: none;
+  background-color: #fff;
+  color: gray;
+}
+.moda_div3 > button:nth-child(2) {
+  border: none;
+  background-color: rgb(44, 75, 255);
+  color: #fff;
+}
+.moda_div3 > button:nth-child(2):hover {
+  background: #168eea;
+}
+.hidden {
+  display: none;
+  height: 0;
+  width: 0;
+}
+.close-modal {
+  position: absolute;
+  top: 1.8rem;
+  right: 2.9rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.close-modal:hover {
+  border: none;
+}
