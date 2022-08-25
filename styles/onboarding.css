@@ -1,0 +1,125 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#onoboarding_container {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url(https://buffer-ui.s3.amazonaws.com/Swirl+Background+Connection.png)
+    100% / 25% no-repeat;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#div_1 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 397px;
+}
+#div_2 {
+  /* border: 1px solid green; */
+  display: flex;
+  box-sizing: border-box;
+  gap: 20px;
+  width: 60%;
+  min-width: 397px;
+}
+#div_2 > button {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 12px;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 35px;
+  cursor: pointer;
+}
+#div_2 > button > img {
+  width: 125px;
+}
+#div_2 > button > h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+#div_2 > button > p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+button:hover {
+  border: 2px solid;
+  border-color: crimson;
+  background-color: white;
+  color: crimson;
+}
+#div_3 {
+  margin-top: 50px;
+}
+#div_3 a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+/* media query */
+@media all and (min-width: 829px) and (max-width: 1120px) {
+  #div_2,
+  #div_1 {
+    width: 70%;
+  }
+  #div_2 > button > img {
+    width: 100px;
+  }
+}
+@media all and (min-width: 618px) and (max-width: 828px) {
+  #div_2,
+  #div_1 {
+    width: 80%;
+  }
+  #div_2 > button > img {
+    width: 80px;
+  }
+}
+@media all and (min-width: 551px) and (max-width: 617px) {
+  #div_2,
+  #div_1 {
+    width: 90%;
+
+    gap: 10px;
+  }
+  #div_2 > button > img {
+    width: 60px;
+  }
+  #div_2 > button {
+    padding: 10px 3px;
+  }
+}
+@media all and (min-width: 200px) and (max-width: 550px) {
+  #div_2,
+  #div_1 {
+    width: 90%;
+    gap: 2px;
+  }
+  #div_2 > button > img {
+    width: 50px;
+  }
+  #div_2 > button {
+    padding: 10px 1px;
+  }
+}
