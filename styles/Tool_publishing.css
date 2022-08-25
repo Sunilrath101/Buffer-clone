@@ -43,11 +43,11 @@ h2{
 #navbar{}
 
 #pub1{
-    /* border:2px solid; */
+   
 }
 #pub11{
     display: flex;
-    /* border:2px solid; */
+   
     justify-content: space-evenly;
     width:87%;
     margin:auto;
@@ -90,7 +90,30 @@ video{
     margin-top:37px;
 }
 
-#pub2{}
+#section-2{
+    width: 100%;
+    height: auto;
+    padding:  0 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#section-2 > #sec2_box{
+    width: 1248px;
+    height: auto;
+    margin: 0 134px;
+    padding: 0 35px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+}
+#section-2 > #sec2_box > .sec2_b1_box{
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 
 #pub3{
@@ -124,13 +147,13 @@ video{
 #pub411{
     display: flex;
     gap:50px;
-    /* border:2px solid; */
+   
     width: 90vw;
     margin:auto;
     
 }
 #pub411>div{
-    /* border:2px solid; */
+   
 }
 #instagram{
     display: flex;
@@ -148,7 +171,7 @@ video{
 }
 #instagram>div{
     height:20px;
-    /* border:2px solid; */
+   
 }
 #instagram>p{
     font-size: 15px;
@@ -220,7 +243,6 @@ svg{
    display: flex;
    justify-content: space-evenly;
    width:90vw;
-   border:2px solid;
    margin:auto;
    align-items: center;
    margin-bottom:200px;
@@ -232,7 +254,6 @@ svg{
 }
 #pub51>div:nth-child(1){
     margin-top:20px;
-    border:2px solid red;
     height: 300px;
     padding-left: 20px;
 }
@@ -311,12 +332,12 @@ svg{
 
 #pub71{
     width:90%;
-    /* border:2px solid; */
+   
     margin: auto;
 }
 #pub711{
     width:95%;
-    /* border:2px solid; */
+   
     margin:auto;
     display: flex;
     /* gap:10px; */
@@ -326,7 +347,7 @@ svg{
 #pub71121>h2{
     display: flex;
     width:80%;
-    /* border:2px solid; */
+   
     font-size:35px;
 }
 #pub7112{
@@ -337,7 +358,7 @@ svg{
     width:77%;
     justify-content: left;
     font-size: 22px;
-    /* border:2px solid;     */
+         
 
 }
 #pub71122{
@@ -366,40 +387,48 @@ svg{
 #pub711>div{
     width:45%;
     height: 60%;
-    /* border:2px solid; */
+   
 }
 #pub8{}
 #pub80{
     width:90%;
-    border:2px solid;
     margin:auto;
 }
 
 #pub81{
     width:90%;
-    border:2px solid;
     margin:auto;
     margin-top:100px;
     display: flex;
     gap:0px 30px;
 }
 #pub81>div{
-    width:60%
+    /* width:60% */
 }
 #pub81>div:nth-child(1){
     width:40%
 }
 #pub811>div>img{
-    border-radius: 100%;
-    width:40%;
+    /* border-radius: 100%; */
+    width:100%;
     display: flex;
     flex-direction: right;
+    margin-top:-50px;
+    margin-left:-50px;
+    margin-bottom:100px;
 }
 #pub811>div{
-    border:2px solid blue;
+    /* border:2px solid blue; */
 }
 
 #pub9{}
+#pub921{
+    display: flex;
+}
+
+#pub911{
+    display: flex;
+}
 
 #pub10{}
 
@@ -558,7 +587,7 @@ svg{
         /* margin-left:31%; */
     }
     #getStarted{
-        /* border:2px solid; */
+       
         width:200px;
         margin-left:31%;
     }
@@ -588,7 +617,7 @@ svg{
         width:90%;
         margin-top:-80px;
         height: 350px;
-        /* border:2px solid; */
+       
     }
 
     
