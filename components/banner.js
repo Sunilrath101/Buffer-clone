@@ -1,6 +1,6 @@
 function banner() {
   return `
-    <div id="sec9_box">
+    <div id="sec_9_box">
     <div id="left"></div>
     <div id="mid">
       <div id="box1"></div>

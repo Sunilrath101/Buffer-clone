@@ -6,7 +6,7 @@ function navbar() {
         </div>
         <div id="nav-mid">
             <ul>
-            <li><a href="">Tools</a></li>
+            <li><a href="#" onmouseover="subMenu()" onmouseout="closeSubMenu()">Tools</a></li>
             <li><a href="">Pricing</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">About</a></li>
