@@ -1,7 +1,7 @@
 
 function footer(){
     return ` <div id="footer">
-    <div>
+    <div id="buffer1">
         <img src="https://buffer.com/resources/content/images/2021/02/buffer-logo.svg" alt="">
     </div>
     <div>
@@ -15,14 +15,14 @@ function footer(){
         <p>Remote Work</p>
         <p>Transparency</p>
     </div>
-    <div>
+    <div id="buffer2">
         <h5>Blog & podcasts</h5>
         <p>Science of Social Media</p>
         <p>Breaking Brand</p>
         <p>Social Media Blog</p>
         <p>Open Blog</p>
     </div>
-    <div>
+    <div id="buffer3">
         <h5>About Buffer</h5>
         <p>Social media solutions</p>
         <p>Our culture</p>

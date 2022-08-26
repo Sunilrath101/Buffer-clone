@@ -1,0 +1,33 @@
+
+
+ #footer
+{
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    padding-top: 40px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 70px;
+}
+#buffer1
+{
+    width: 100px;
+    height: 100px;
+}
+#buffer2
+{
+ padding-top: -440px;
+}
+@media all and (min-width:320px) and (max-width:811px) 
+{
+    #footer
+    {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog</title>
     <link rel="stylesheet" href="./styles/bloghomepage.css">
+    <link rel="stylesheet" href="./styles/navbar_blog.css">
+    <link rel="stylesheet" href="./styles/footerblog.css">
+    
 </head>
 <body>
+       <div id="navbar"></div>
     <div id="blog_top">
         <div id="blog_top1">
             <!-- image -->
@@ -105,10 +109,24 @@
         <p>We’ll keep you in the loop on our best advice and strategies for social media <br> marketing and growing a small business.</p>
         <div id="inp_btn">
             <input type="text" name="" placeholder="Your email address... " id="gh-input">
-            <button id="gh-button">Subscribe</button>
+            <a href="./home.html"><button  id="gh-button">Subscribe</button></a>
         </div>
     </div>
 </div>
+<div id="footerblog"></div>
 </body>
 </html>
+<script type="module">
+    import navbar from "./components/navbar_blog.js";
+
+    let nav = document.getElementById("navbar");
+  nav.innerHTML = navbar();
+</script>
+<script type="module">
+   import footer from "./components/footer_blog.js";
+
+   let foot = document.getElementById("footerblog");
+  foot.innerHTML = footer();
+</script>
+
 <script src="./scripts/bloghompage.js"></script>
