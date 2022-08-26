@@ -1,5 +1,5 @@
 function hamMenu() {
-    return `
+  return `
     <div id="layer1">
         <div id="logo">
           <svg

@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/banner.css" />
-    <title>Buffer</title>
+    <link rel="stylesheet" href="styles/tools-menu.css" />
+    <title>Buffer | Home</title>
   </head>
 
   <body>
+    <!-- ,,,,,,,,,,,,IMPORTING CODE FROM COMPONENTS,,,,,,,,,,,, -->
+
     <!-- Hamburger Menu -->
 
     <div id="ham-menu"></div>
@@ -19,7 +22,11 @@
     <!-- Navbar -->
     <div id="navbar"></div>
 
-    <!-- Main -->
+    <!-- Sub Menu -->
+
+    <div id="tools-menu" onmouseover="keep()" onmouseout="closeSubMenu()"></div>
+
+    <!-- ,,,,,,,,,,,,IMPORTING CODE FROM COMPONENTS,,,,,,,,,,,, -->
 
     <div id="main">
       <!-- Home Section 1 -->
@@ -808,7 +815,7 @@
 
       <!-- Section - 9 -->
 
-      <div id="section-9"></div>
+      <div id="section_9"></div>
 
       <!-- Footer Section -->
 
@@ -819,6 +826,7 @@
 
 <script type="module">
   import navbar from "./components/navbar.js";
+  import subMenu from "./components/subMenu.js";
   import hamMenu from "./components/hamMenu.js";
   import footer from "./components/footer.js";
   import banner from "./components/banner.js";
@@ -826,14 +834,18 @@
   let nav = document.getElementById("navbar");
   nav.innerHTML = navbar();
 
+  let subM = document.getElementById("tools-menu");
+  subM.innerHTML = subMenu();
+
   let hamM = document.getElementById("ham-menu");
   hamM.innerHTML = hamMenu();
 
   let foot = document.getElementById("footer");
   foot.innerHTML = footer();
 
-  let bann = document.getElementById("section-9");
+  let bann = document.getElementById("section_9");
   bann.innerHTML = banner();
 </script>
 
 <script src="scripts/ham-menu.js"></script>
+<script src="scripts/navbar.js"></script>

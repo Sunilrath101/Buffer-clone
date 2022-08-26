@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/analytics-home.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/footer.css" />
-    <title>Buffer</title>
+    <link rel="stylesheet" href="styles/banner.css" />
+    <link rel="stylesheet" href="styles/tools-menu.css" />
+    <title>Buffer | Analytics</title>
   </head>
   <body>
+    <!-- ,,,,,,,,,,,,IMPORTING CODE FROM COMPONENTS,,,,,,,,,,,, -->
+
+    <!-- Hamburger Menu -->
+
+    <div id="ham-menu"></div>
+
+    <!-- Navbar -->
     <div id="navbar"></div>
+
+    <!-- Sub Menu -->
+
+    <div id="tools-menu" onmouseover="keep()" onmouseout="closeSubMenu()"></div>
+
+    <!-- ,,,,,,,,,,,,IMPORTING CODE FROM COMPONENTS,,,,,,,,,,,, -->
+
+    <!-- Main -->
+
     <div id="main">
       <!-- Analytics Section 1 -->
 
@@ -735,7 +754,7 @@
 
       <!-- Footer Banner -->
 
-      <div id="section-9"></div>
+      <div id="section_9"></div>
     </div>
     <div id="footer"></div>
   </body>
@@ -743,15 +762,26 @@
 
 <script type="module">
   import navbar from "./components/navbar.js";
+  import subMenu from "./components/subMenu.js";
+  import hamMenu from "./components/hamMenu.js";
   import banner from "./components/banner.js";
   import footer from "./components/footer.js";
 
   let nav = document.getElementById("navbar");
   nav.innerHTML = navbar();
 
-  let bann = document.getElementById("section-9");
+  let subM = document.getElementById("tools-menu");
+  subM.innerHTML = subMenu();
+
+  let hamM = document.getElementById("ham-menu");
+  hamM.innerHTML = hamMenu();
+
+  let bann = document.getElementById("section_9");
   bann.innerHTML = banner();
 
   let foot = document.getElementById("footer");
   foot.innerHTML = footer();
 </script>
+
+<script src="scripts/ham-menu.js"></script>
+<script src="scripts/navbar.js"></script>

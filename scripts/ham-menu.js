@@ -11,13 +11,17 @@ function cutHam() {
     document.getElementById("main").style.display = "block";
     // console.log("yooo")
 }
+
+
 function subMenu() {
+    console.log("hi")
     let tool1 = document.getElementById("tool1");
     tool1.style.display = "none";
     let tool2 = document.getElementById("tool2");
     tool2.style.display = "block";
-    // alert("hi")
+
 }
+
 function subMenuClose() {
     let tool1 = document.getElementById("tool1");
     tool1.style.display = "block";

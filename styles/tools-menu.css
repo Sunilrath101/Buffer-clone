@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    line-height: 1.8;
+}
+h1, h2 {
+    font-size: calc(1.375rem + (1vw - 3.75px) * 1.1268) !important;
+    line-height: calc(1.875rem + 6 * ((100vw - 21rem) / 680)) !important;
+    font-weight: 700 !important;
+    margin: 0px 0px 1.5rem !important;
+}
+
+#tools-menu{
+    transition: transform 125ms ease-out 0s, opacity 125ms ease-out 0s;
+    will-change: transform, transform-origin, opacity;
+    position: absolute;
+    left: 433px;
+    top: 70px;
+    padding-top: 30px;
+}
+#tools-menu > #tools-menu-box{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgb(35 31 32 / 20%) 0px 0px 20px;
+    padding: 16px;
+    width: 296px;
+    height: auto;
+    border-radius: 8px;
+}
+#tools-menu > #tools-menu-box > a > .menu-box{
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#tools-menu > #tools-menu-box > a > .menu-box:hover{
+    background-color: rgb(238, 238, 238);
+}
+#tools-menu > #tools-menu-box > a > .menu-box > .menu-content > p:first-child{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    /* font-size: 39px; */
+}
+#tools-menu > #tools-menu-box > a > .menu-box > .menu-content > p+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(99 99 99);
+}
+a{
+    text-decoration: none;
+}
+
+#tools-menu{
+    display: none;
+}
