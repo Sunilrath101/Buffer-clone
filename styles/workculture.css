@@ -1,0 +1,32 @@
+#workculture3
+{
+    width: 100%;
+    height: auto;
+
+}
+#workculture3>div>img
+{
+    width: 100%;
+    height: auto;
+}
+
+@media all and (min-width:320px) and (max-width:811px) 
+{
+    #workculture2
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px
+        ;
+    }
+    #work4
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #guide12
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

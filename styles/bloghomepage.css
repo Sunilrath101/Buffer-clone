@@ -15,8 +15,14 @@ body {
     
     
 }
-
-
+#mid_img>img
+{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#mid_img>img:hover {
+    transform: scale(1.1);
+}
 
 #blog_top
 {
@@ -80,6 +86,7 @@ width: 100%;
 #mid>img,a
 {
     height: 400px;
+    
 }
 /* #first:hover
 {
@@ -103,9 +110,11 @@ width: 85%;
 margin:auto;
 height: 300px;
 border-top: 1px solid grey;
+border-bottom: 1px solid grey;
 align-items: center;
 text-align: center;
-margin-top: 40px;
+margin-top: 100px;
+padding-top: 80px;
 
 }
 #gh-button {
@@ -154,4 +163,53 @@ margin-top: 40px;
 #inp_btn
 {
     gap: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/*  MEDIA QUERY*/
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+@media all and (min-width:320px) and (max-width:811px) 
+{
+
+    #blog_mid
+    {
+         display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    } 
+
+    #blog_mid1
+    {
+        
+            /* display: grid; */
+            grid-template-columns: repeat(1,1fr);
+            width: 90%;
+        
+    
+    }
+    #blog_top
+    {
+        
+            display: grid;
+           grid-template-columns: repeat(1,1fr);
+           width: 60%;
+       
+    }
+    #subscribe_box
+    {
+        margin-top: 1800px;
+        margin-left: 100px;
+            display: grid;
+           grid-template-columns: repeat(1,1fr);
+           width: 0;
+       
+    
+    }
+    #blog_top1>img
+    {
+         width: 120%
+    };
+    #mid_blog2>div>div>img
+    {
+        width: 80%
+    };
 }
