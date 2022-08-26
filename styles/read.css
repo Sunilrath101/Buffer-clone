@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: Roboto sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#public{
+    width:80%;
+    margin:auto;
+    margin-top:90px;
+    display:flex;
+    justify-content:space-between;
+}
+#public>div>img{
+    width:600px;
+    height:auto;
+}
+#public>div>h6{
+    padding-top:25px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+#public>div>h1{
+    margin-top: -20px;
+    font-size: 40px;
+    font-weight:bolder;
+    font-family: 'Poppins', sans-serif;
+}
+#public>div>div{
+    margin-top:-20px;
+    display:flex;
+    align-items:center;
+    gap:30px;
+    font-family: 'Poppins', sans-serif;
+}
+#public>div>div>img{
+    width:9%;
+    height:10%
+}
+#public>div>div>div>h3{
+    padding-top:30px;
+    margin-bottom: -13px;
+
+}
+#public>div>div>div>p{
+    padding-bottom:30px;
+    
+
+}
+#border{
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:40px;
+    border-bottom: 1px solid black;
+}
+#icon{
+    position:relative;
+    height:auto;
+    width:15%;
+    text-align:end;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:30px;
+}
+#icon>div>i{
+    font-size: 30px;
+    margin:auto;
+}
+#compain{
+    width:47%;
+    position:absolute;
+    left:350px;
+    top:105%;
+}
+#compain>#first{
+    text-align:center;
+    margin:auto;
+    margin-bottom:60px;
+}
+#compain>p{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    
+}
+#compain>img{
+    width:100%;
+    margin-top:30px;
+}
+h1{
+    margin-top:50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#compain>#blue{
+    color:blue;
+}
+#compain>div{
+    text-align: center;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    font-size: 25px;
+    margin-top:22px;
+}
+ul>li>p{
+    font-family: Roboto, sans-serif;
+    font-size:20px;
+    
+}
+#aaron{
+    margin-top:80px;
+}
+#border1{
+    border-bottom: 100%;
+}
+#compain>h5{
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+}
+#blue{
+    text-align:center;
+    margin:auto;
+}
+#free_trial{
+    width:30%;
+    text-align: center;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:20px 30px;
+    color:white;
+    background-color:rgb(4, 122, 232);
+    border-radius:5px;
+
+}
+#article{
+    position:absolute;
+    top:425rem;
+    width:80%;
+    text-align:left;
+    margin:auto;
+    margin-left:120px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:60px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+#article>div{
+    text-align: left;
+    display:flex;
+    justify-content: space-around;
+
+}
+#article>div>div>div{
+    width:80%;
+    display:flex;
+    justify-content:space-around ;
+    margin-top:60px;
+    margin-left:30px;
+    
+}
+#article>div>div>img{
+    width:100%;
+    height:90%;
+}
+#article>div>div>h3{
+    font-size:18px;
+    width:80%;
+    margin-left:30px;
+}
+#section-9{
+    width:100%;
+    height:400px;
+    position:absolute;
+    top:460rem;
+    background-color:rgb(42, 81, 223);
+    margin-bottom:100px;
+}
+#section-9>h1{
+    width:50%;
+    text-align:center;
+    margin:auto;
+    margin-top:100px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+#section-9>p{
+    width:10%;
+    text-align: center;
+    margin:auto;
+    margin-top:30px;
+    padding:20px 30px;
+    background-color: rgba(234, 30, 30, 0.952);
+    font-family: Roboto, sans-serif;
+    font-size:20px;
+    color:white;
+    border-radius: 5px;
+}
+#section-9>p:hover{
+    background-color:  rgba(245, 82, 12, 0.952);;
+}
+#footer{
+    position:absolute;
+    top:244rem;
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    margin-left:70px;
+    
+}
+
+#footer>div>img{
+    width:40%;
+    margin-top:50px;
+}
+#footer>div>h5{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:-10px;
+}
+#footer>div>p{
+    font-size: 18px;;
+    font-family: Roboto, sans-serif;
+
+}
+#footer>div>p:hover{
+    color:blue;
+
+}
