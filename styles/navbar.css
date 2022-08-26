@@ -23,10 +23,10 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    width: 8%;
+    width: 13%;
 }
 #navbar > #nav-left > img{
-    width: 100%;
+    width: 120px;
     height: 100%;
     fill: none;
 }
@@ -48,7 +48,7 @@
     list-style: none;
 }
 #navbar > #nav-mid > ul >li{
-    margin: 0 30px;
+    margin: 0 24px;
 }
 #navbar > #nav-mid > ul > li > a{
     font-size: 18px;
@@ -71,7 +71,10 @@
 }
 #navbar > #nav-right > a:nth-child(1){
     text-decoration: none;
-    color: rgb(44, 75, 255);;
+    color: rgb(44, 75, 255);
+}
+#navbar > #nav-right > #ham{
+    display: none;
 }
 
 /* Get Started Buttons Utility Code */
@@ -96,4 +99,143 @@
 }
 .learn-more-btn:hover{
     background-color: #d7dcfb;;
+}
+
+#ham-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 10000;
+    height: auto;
+}
+#ham-menu > #layer1{
+    display: none;
+}
+#ham-menu > #layer2{
+    display: none;
+}
+   
+/* ------------->------------->------------>-------------->------------> */
+/* MEDIA QUERY */
+/* ------------->------------->------------>-------------->------------> */
+
+/* Hamburger Menu >>>>>>>>>>>>>>>>>>>>*/ 
+
+@media all and (min-width:300px) and (max-width:1100px) {
+    /* Layer 1 */
+
+
+    /* Hamburger Menu */
+    #ham-menu{
+        background-color:  rgb(44, 75, 255);
+        height: 100vh;
+        width: 100%;
+        padding: 10px 30px;
+        position: absolute;
+        top: 0;
+        z-index: 10000;
+    }
+    #ham-menu > #layer1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        /* border: 2px solid green; */
+    }
+    #ham-menu > #layer1 > #logo{
+        width: 30%;
+        /* border: 2px solid red; */
+    }
+    #ham-menu > #layer1 > #logo > svg{
+        width: 125px;
+    }
+    #ham-menu > #layer1 > #cut{
+        width: 30%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: right;
+    }
+    #ham-menu > #layer1 > #cut >img{
+        width: 30px;
+        /* border: 2px solid green; */
+    }
+
+    /*  Layer 2 */
+
+    #ham-menu > #layer2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        /* border: 2px solid green; */
+    }
+    #ham-menu > #layer2 > ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid green; */
+    }
+    #ham-menu > #layer2 > ul > li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    #ham-menu > #layer2 > ul > li > a{
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 21px;
+        color: white;
+    }
+    #ham-btn{
+        background-color: rgb(233, 114, 132);
+    }
+    #tool2{
+        display: none;
+    }
+    #tool2 > li{
+        list-style: none;
+    }
+    #tool2 > li:first-child > a{
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 21px;
+        color: white;
+    }
+    #tool2 > div {
+        border-bottom: 2px solid white;
+    }
+    #tool2 > div > li {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+    #tool2 > div > li > a{
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+    }
+    
+}
+
+/* Navbar >>>>>>>>>>>>>>>>>>>>*/ 
+
+@media all and (min-width:598px) and (max-width:1100px) {
+    #navbar > #nav-mid {
+        display: none;
+    }
+    #navbar > #nav-right > #ham{
+        display: block;
+        width: 35px;
+    }
+    #navbar > #nav-right > #ham > img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
 }

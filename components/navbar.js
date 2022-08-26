@@ -16,6 +16,8 @@ function navbar() {
         <div id="nav-right">
             <a href="">Log in</a>
             <a href="" class="get-started-btn">Get started now</a>
+            <div id="ham">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" onclick="openHam()">
         </div>`
 }
 
