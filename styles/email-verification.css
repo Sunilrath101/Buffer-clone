@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    line-height: 1.8;
+}
+h1, h2 {
+    font-size: calc(1.375rem + (1vw - 3.75px) * 1.1268) !important;
+    line-height: calc(1.875rem + 6 * ((100vw - 21rem) / 680)) !important;
+    font-weight: 700 !important;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0px 0px 1.5rem !important; */
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.box{
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px 10px;
+    width: 500px;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+h1 + p{
+    color: rgb(169, 166, 166);
+    margin-top: 10px;
+}
+#enterOtp{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#enterOtp >input::placeholder{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 300;
+}
+#enterOtp >input{
+    width: 300px;
+    font-size: 18px;
+    font-weight: 600;
+    color:  rgb(44, 75, 255);
+}
+#enterOtp >button{
+    margin: auto;
+}
+button{
+    background-color: rgb(44, 75, 255);
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: rgb(24, 46, 172);
+}
+#enterOtp{
+    display: none;
+}
+#resetPass{
+    display: none;
+}
+#enterOtp > #wrong{
+    display: none;
+    color: red;
+}
+#resetPass > #notMatch{
+    display: none;
+    color: red;
+}
+

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    line-height: 1.8;
+}
+h1, h2 {
+    font-size: calc(1.375rem + (1vw - 3.75px) * 1.1268) !important;
+    line-height: calc(1.875rem + 6 * ((100vw - 21rem) / 680)) !important;
+    font-weight: 700 !important;
+    /* margin: 0px 0px 1.5rem !important; */
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+}
+/* Get Started Buttons Utility Code */
+
+.get-started-btn{
+    background-color: rgb(44, 75, 255);
+    padding: 5px 70px;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+.get-started-btn:hover{
+    background-color: rgb(24, 46, 172);
+}
+
+/* Main  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+#main{
+    display: grid;
+    grid-template-columns: 210px auto auto auto auto;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 'myArea myArea2 myArea2 myArea2 myArea2';
+    position: fixed;
+    /* overflow: auto; */
+}
+#main-left {
+    grid-area: myArea;
+    /* border: 2px solid green; */
+    background: rgb(245, 245, 245);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 10px;
+}
+#main-left >  #leftDiv{
+    grid-area: myArea;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.75rem 0px 0.75rem 0.75rem; */
+    height: 100vh;
+    width: 200px;
+    background: rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+#main-left >  #leftDiv > a:first-child{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#main-left >  #leftDiv > a:first-child > svg{
+    fill: white;
+}
+#main-left >  #leftDiv > .get-started-btn{
+    padding: 3px 10px;
+}
+
+
+#main-left >  #leftDiv #channels, #main-left >  #leftDiv #tools {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#main-left >  #leftDiv #channels > p:first-child, #main-left >  #leftDiv #tools > p:first-child {
+    border-bottom: 1px solid rgb(211, 209, 209);
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3D3D3D;;
+}
+#main-left >  #leftDiv #channels > a, #main-left >  #leftDiv #tools > a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0 8px;
+}
+svg {
+    width: 8%;
+    fill: rgb(184, 184, 184);
+}
+#main-right {
+    grid-area: myArea2;
+    /* border: 2px solid black; */
+    background: rgb(245, 245, 245);
+    height: 100vh;
+}
+#main-right > #rightDiv {
+    border: 1.5px solid rgb(207 215 223);
+    margin: 10px 0 0 10px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(252 252 252);
+    overflow-y: scroll;
+    padding: 50px;
+}
+#main-right > #rightDiv > h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #323b43;
+}
+#main-right > #rightDiv > h1+p {
+    margin-bottom: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#main-right > #rightDiv > .box{
+    border: 1px solid rgb(207 215 223);
+    margin: 10px 0 15px 10px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgb(255 255 255);
+    overflow-y: scroll;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #59626A;
+}
+
+/* Boxes */
+
+
+#main-right > #rightDiv > #box1 > #top, #main-right > #rightDiv > #box3 > #top, #main-right > #rightDiv > #box4 > #top, #main-right > #rightDiv > #box5 > #top {
+    display: flex;
+    justify-content: space-between;
+}
+#main-right > #rightDiv > #box1 > #top > p, #main-right > #rightDiv > #box3 > #top > p, #main-right > #rightDiv > #box4 > #top > p, #main-right > #rightDiv > #box5 > #top > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #323b43;
+}
+#main-right > #rightDiv > #box1 > #top > p+p, #main-right > #rightDiv > #box3 > #top > p+p, #main-right > #rightDiv > #box4 > #top > p+p, #main-right > #rightDiv > #box5 > #top > p+p{
+    border: 1px solid rgb(190, 187, 187);;
+    padding:10px 13px;
+    border-radius: 4px;
+}
+#main-right > #rightDiv > #box1 > #mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-right > #rightDiv > #box1 > #mid > img{
+    width: 12%;
+}
+#main-right > #rightDiv > #box1 > #bottom{
+    margin-bottom: 20px;
+}
+#main-right > #rightDiv > #box1 > #bottom, #main-right > #rightDiv > #box3 > #bottom, #main-right > #rightDiv > #box4 > #bottom, #main-right > #rightDiv > #box5 > #bottom{
+    text-align: center;
+}
+#main-right > #rightDiv > #box2{
+    flex-direction: row;
+    height: auto;
+}
+#main-right > #rightDiv > #box2 > #left{
+    /* border: 2px solid red; */
+    border-right: 1px solid #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    font-size: 14px;
+}
+#main-right > #rightDiv > #box2 > #left > p:first-child{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#main-right > #rightDiv > #box2 > #right{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+}
+#main-right > #rightDiv > #box2 > #right > img{
+    width: 40%;
+}
+#main-right > #rightDiv > #box2 > #right > #content > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #3D3D3D;
+}
+#main-right > #rightDiv > #box2 > #right > #content > a{
+    padding: 7px 24px;
+    font-size: 14px;
+}
+#main-right > #rightDiv > #box2 > #right > p{
+    border: 1px solid rgb(190, 187, 187);;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+
+
+#main-right > #rightDiv > #box5 > #bottom > p:first-child{
+    font-weight: 600;
+}
+#main-right > #rightDiv > #box5 > #bottom > p:last-child{
+    font-size: 10px;
+}
+

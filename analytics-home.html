@@ -10,7 +10,7 @@
     <title>Buffer</title>
   </head>
   <body>
-    <div id="navb"></div>
+    <div id="navbar"></div>
     <div id="main">
       <!-- Analytics Section 1 -->
 
@@ -743,15 +743,15 @@
 
 <script type="module">
   import navbar from "./components/navbar.js";
-  import footer from "./components/footer.js";
   import banner from "./components/banner.js";
+  import footer from "./components/footer.js";
 
   let nav = document.getElementById("navbar");
   nav.innerHTML = navbar();
 
-  let foot = document.getElementById("footer");
-  foot.innerHTML = footer();
-
   let bann = document.getElementById("section-9");
   bann.innerHTML = banner();
+
+  let foot = document.getElementById("footer");
+  foot.innerHTML = footer();
 </script>

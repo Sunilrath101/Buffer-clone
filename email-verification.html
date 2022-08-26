@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/email-verification.css" />
+    <title>Email Verification</title>
+  </head>
+  <body>
+    <div id="main">
+      <!-- Enter Email -->
+
+      <div id="emailSent" class="box">
+        <h1>Enter your email</h1>
+        <p>Password Reset</p>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your registered email"
+        />
+        <button onclick="otpSent()">Send OTP</button>
+      </div>
+
+      <!-- Enter OTP -->
+
+      <div id="enterOtp" class="box">
+        <h1>Enter OTP</h1>
+        <p>Check mail for OTP</p>
+        <input type="number" name="otp" id="otp" placeholder="Enter Otp" />
+        <button onclick="otpEntered()">Submit</button>
+        <p id="wrong">Wrong OTP. Enter correct OTP</p>
+      </div>
+
+      <!-- Enter New Password -->
+
+      <div id="resetPass" class="box">
+        <h1>Reset Pass</h1>
+        <p>Set new password</p>
+        <input
+          type="password"
+          name="new-pass"
+          id="new-pass"
+          placeholder="Enter a new password"
+        />
+        <input
+          type="password"
+          name="confirm-pass"
+          id="confirm-pass"
+          placeholder="Re-enter your new password"
+        />
+        <button onclick="passReseted()">Confirm</button>
+        <p id="notMatch">Password did not match. Enter again.</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  let emailSent = document.getElementById("emailSent");
+  let enterOTP = document.getElementById("enterOtp");
+  let resetPass = document.getElementById("resetPass");
+
+  function otpSent() {
+    emailSent.style.display = "none";
+    enterOTP.style.display = "block";
+  }
+
+  function otpEntered() {
+    let inputOTP = document.getElementById("otp").value;
+    let wrongAlert = document.getElementById("wrong");
+
+    if (inputOTP == 911009) {
+      emailSent.style.display = "none";
+      enterOTP.style.display = "none";
+      resetPass.style.display = "block";
+    } else {
+      wrongAlert.style.display = "block";
+    }
+  }
+
+  function passReseted() {
+    let newPass = document.getElementById("new-pass").value;
+    let confirmPass = document.getElementById("confirm-pass").value;
+    let notMatch = document.getElementById("notMatch");
+
+    if (newPass != confirmPass) {
+      notMatch.style.display = "block";
+    } else {
+      alert("Password reseted successfully");
+    }
+  }
+</script>
