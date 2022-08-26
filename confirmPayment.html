@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/confirmPayment.css">
+  <script src="https://use.fontawesome.com/7077e17e6b.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+
+<body>
+  <button class="show-modal1">change Plan</button>
+  <!-- modal-1 start -->
+  <div class="modal1 hidden1">
+
+    <div class="plans">
+      <h1>Confirm Plan</h1>
+      <div class="planType">
+        <div class="free plan">
+          <div class="part1">
+            <div>
+              <h3>Free</h3>
+              <i class="fa-regular fa-circle-check" id="check1"></i>
+            </div>
+            <p class="reduceFont">Simplify the noise and test out social media management tools.</p>
+            <h3>$ <span id="p-dooler">0</span> </h3>
+            <p>Per channel per month <br>
+              (charged yearly)</p>
+          </div>
+          <div class="part2">
+            <h3>Features</h3>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Basic publishing tools</p>
+            </div>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Limited usage</p>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="essentials plan">
+          <div class="part1">
+            <div>
+              <h3>Essentials</h3>
+              <i class="fa-regular fa-circle-check" id="check2"></i>
+            </div>
+            <p class="reduceFont">Get the most out of your creative with publishing, analytics & engagement tools.</p>
+            <h3>$ <span id="p-dooler">6</span> </h3>
+            <p>Per channel per month <br>
+              (charged yearly)</p>
+          </div>
+          <div class="part2">
+            <h3>Features</h3>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Advanced publishing tools</p>
+            </div>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Analytics & reporting</p>
+            </div>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Engagement tools</p>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="teamPack plan">
+          <div class="part1">
+            <div>
+              <h3>Essentials + Team Pack</h3>
+              <i class="fa-regular fa-circle-check" id="check3"></i>
+            </div>
+            <p class="reduceFont">Collaborate with your team in one place & save time reporting.</p>
+            <h3>$ <span id="p-dooler">12</span> </h3>
+            <p>Per channel per month <br>
+              (charged yearly)</p>
+          </div>
+          <div class="part2">
+            <h3>Features</h3>
+            <div class="features  features_last"><i class="fa-solid fa-check"></i>
+              <p>Basic publishing tools</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Limited usage</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Unlimited team members & clients</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Draft approval workflows</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Exportable PDF reports</p>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <h3>Need more than 10 channels? <a href="#">Try our agency plan</a> </h3>
+    </div>
+    <div class="summary">
+      <button class="close-modal1">&times;</button>
+      <h1>Summary</h1>
+      <div class="summary1">
+        <div>
+          <p>Your current
+            <br> plan:
+          </p>
+          <p>Essentials <br> + Team Pack</p>
+        </div>
+        <div>
+          <p>1 channels</p>
+          <p>Unlimited users</p>
+        </div>
+        <div>
+          <p>Currently paying:
+            $12/mo</p>
+        </div>
+
+
+      </div>
+      <div class="summary2">
+
+        <div class="summary2_1">
+          <div>
+            <p>Channels</p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-shopify"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-square-google-plus"></i>
+          </div>
+          <div>
+            <button id="drease">-</button>
+            <input type="number" name="" id="number" value="1">
+            <button id="increase">+</button>
+          </div>
+
+          <p>Your updated plan:</p>
+          <h5 id="updatePlaninSummary">Essentials</h5>
+          <div class="uders">
+            <p><span id="channelsChange">2</span> channels</p>
+            <h6 id="userQuantityChange">One user</h6>
+          </div>
+          <hr>
+          <p>Total due today:</p>
+          <h1 class="finalamount1">$12</h1>
+          <hr>
+          <p><span class="finalamount2">$12</span> will be billed every month until canceled.</p>
+
+
+
+        </div>
+
+
+
+
+      </div>
+      <button class="gotoPayment show-modal2">Go To Payment</button>
+
+
+
+    </div>
+  </div>
+  <div class="overlay1 hidden1"></div>
+  <!-- modal-1 over -->
+
+
+  <!-- modal-2 start -->
+  <div class="modal2 hidden2">
+
+    <div class="plans">
+      <h1>Confirm Plan</h1>
+      <div class="planType">
+        <div class="free plan">
+          <div class="part1">
+            <div>
+              <h3>Free</h3>
+              <i class="fa-regular fa-circle-check" id="check1"></i>
+            </div>
+            <p class="reduceFont">Simplify the noise and test out social media management tools.</p>
+            <h3>$ <span id="p-dooler">0</span> </h3>
+            <p>Per channel per month <br>
+              (charged yearly)</p>
+          </div>
+          <div class="part2">
+            <h3>Features</h3>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Basic publishing tools</p>
+            </div>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Limited usage</p>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="essentials plan">
+          <div class="part1">
+            <div>
+              <h3>Essentials</h3>
+              <i class="fa-regular fa-circle-check" id="check2"></i>
+            </div>
+            <p class="reduceFont">Get the most out of your creative with publishing, analytics & engagement tools.</p>
+            <h3>$ <span id="p-dooler">6</span> </h3>
+            <p>Per channel per month <br>
+              (charged yearly)</p>
+          </div>
+          <div class="part2">
+            <h3>Features</h3>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Advanced publishing tools</p>
+            </div>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Analytics & reporting</p>
+            </div>
+            <div class="features"><i class="fa-solid fa-check"></i>
+              <p>Engagement tools</p>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="teamPack plan">
+          <div class="part1">
+            <div>
+              <h3>Essentials + Team Pack</h3>
+              <i class="fa-regular fa-circle-check" id="check3"></i>
+            </div>
+            <p class="reduceFont">Collaborate with your team in one place & save time reporting.</p>
+            <h3>$ <span id="p-dooler">12</span> </h3>
+            <p>Per channel per month <br>
+              (charged yearly)</p>
+          </div>
+          <div class="part2">
+            <h3>Features</h3>
+            <div class="features  features_last"><i class="fa-solid fa-check"></i>
+              <p>Basic publishing tools</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Limited usage</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Unlimited team members & clients</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Draft approval workflows</p>
+            </div>
+            <div class="features features_last"><i class="fa-solid fa-check"></i>
+              <p>Exportable PDF reports</p>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <h3>Need more than 10 channels? <a href="#">Try our agency plan</a> </h3>
+    </div>
+    <div class="summary">
+      <button class="close-modal2">&times;</button>
+      <h1>Summary</h1>
+      <div class="summary1">
+        <div>
+          <p>Your current
+            <br> plan:
+          </p>
+          <p>Essentials <br> + Team Pack</p>
+        </div>
+        <div>
+          <p>1 channels</p>
+          <p>Unlimited users</p>
+        </div>
+        <div>
+          <p>Currently paying:
+            $12/mo</p>
+        </div>
+
+
+      </div>
+      <div class="summary2">
+
+        <div class="summary2_1">
+          <div>
+            <p>Channels</p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-shopify"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-square-google-plus"></i>
+          </div>
+          <div>
+            <button id="drease">-</button>
+            <input type="number" name="" id="number" value="1">
+            <button id="increase">+</button>
+          </div>
+
+          <p>Your updated plan:</p>
+          <h5 id="updatePlaninSummary">Essentials</h5>
+          <div class="uders">
+            <p><span id="channelsChange">2</span> channels</p>
+            <h6 id="userQuantityChange">One user</h6>
+          </div>
+          <hr>
+          <p>Total due today:</p>
+          <h1 class="finalamount1">$12</h1>
+          <hr>
+          <p><span class="finalamount2">$12</span> will be billed every month until canceled.</p>
+
+
+
+        </div>
+
+
+
+
+      </div>
+      <button class="gotoPayment">Go To Payment</button>
+
+
+
+    </div>
+  </div>
+  <div class="overlay2 hidden2"></div>
+  <!-- modal-2 over -->
+</body>
+
+</html>
+<script src="./scripts/confirmPayment.js"></script>
