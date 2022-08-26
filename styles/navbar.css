@@ -6,9 +6,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    overflow: scroll;
-}
 #navbar{
     /* border: 2px solid black; */
     max-width: 1248px;
