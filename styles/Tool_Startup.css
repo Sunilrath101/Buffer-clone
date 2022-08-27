@@ -58,7 +58,7 @@ p, a, span{
     /* border:2px solid; */
     padding:20px;
     width:90%;
-    margin:100px auto;;
+    margin:80px auto;
     /* margin:auto; */
 }
 
@@ -149,21 +149,12 @@ a.createPage:hover{
         height:50px;
         padding:10px 25px;
 }
-
-
-#str2>div{
-    display: flex;
-    flex-wrap: wrap;
-    border:2px solid red;
-    /* width:20%; */
-    margin:auto;
-    justify-content: center;
-    gap:30px;
+#str3{
+    height:200px;
 }
 #str2>div>img{
-    width:200px;
+    width:50px;
 }
-
 #str3>div>h2{
     font-size: 40px;
     margin-bottom:20px;
@@ -177,37 +168,45 @@ a.createPage:hover{
 
 #str3>div>div>button:hover{
     cursor: pointer;
-    border-bottom:2px solid blue;
+}
+#str4{
+    /* border:2px solid; */
+    margin-top:-200px;
 }
 
+#str4>div>div{
+    width:45%;
+    /* border:2px solid; */
+}
+#str4>div>div>img{
+    width:50%;
+}
 
 
 #str4_5{
     background-color: rgb(239, 242, 255);
     padding:100px 100px;
+    
 }
 
 #str6>div{
     display: flex;
     gap:40px;
-    /* border: 2px solid red; */
     
 }
-h3 {
+
+h3{
     font-size: 1.125rem;
     line-height: 1.5;
     font-weight: 700;
-    /* margin: 0px 0px 1.25rem; */
     height:10%;
    
 }
 #str6>div>div{
-    /* border:2px solid green; */
     height: auto;
     padding-bottom:100px;
 }
 #str6>div>div>img{
-    /* border:2px solid red; */
     min-width: 100%;
     max-width: 100%;
     min-height: 70%;
@@ -225,59 +224,57 @@ h3 {
     margin-bottom: 10px;
     margin-top:20px;
     text-align: left;
-    /* border: 2px solid; */
 }
-#str7>div>div:nth-child(2){
-    display: flex;
-    /* overflow-x: hidden; */
-    /* animation-name: move-in-steps; */
-    /* animation: move-in-steps 100s infinite linear 0s  normal none running move-in-steps; */
-    /* position: relative;
-    top:0px;
-    left:0px;
-    animation: move-in-steps 20s infinite;
-    animation-timing-function: linear; */
 
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    animation: 100s linear 0s infinite normal none running iUydqX;
-   
-    
-}
 #str7>div>div:hover{
     animation-play-state: paused;
     
 }
+#str7>div>div>div>a{
+    text-decoration: none;
+    color: #636363;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: Roboto sans-serif;
+}
+#str7>div>div>div>a:hover{
+    text-decoration: underline;
+}
+#str7>div>div>div>img{
+    display: block;
+    margin:auto;
+}
+#str7>div>div>div{
+    height:300px;
+}
+#str7>div{
+    width: 100%;
+}
 #str7{
     background-color: #f2f2f2;
-    width:100%;
-    margin:0px 0px;
-    padding:100px;
-    /* height:100%; */
+    /* padding:100px 0px; */
 }
 
-/* @keyframes move-in-steps {
+ #str7111{
+    /* display: flex; */
+    height: auto; 
+    width: 100%;
+     /* border:2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: 100s linear 0s infinite normal none running move-in-steps;
+    /* overflow-x:auto; */
+} 
+
+@keyframes move-in-steps {
 	0% {
         transform: translate3d(0px, 0px, 0px);
     }
     100% {
-        left:100%; 
          transform: translate3d(-100%, 0px, 0px);
      }
- }   */
-
- @keyframes iUydqx{
-
-0% {
-    transform: translate3d(0px, 0px, 0px);
-}
-100% {
-    transform: translate3d(-100%, 0px, 0px);
-}
- }
+ }  
 
 #str7>div>div>div>img{
     width:150px;
@@ -327,7 +324,19 @@ h5.head123{
 h4{
     font-size: 30px;
 }
+.head123>span{
+    margin-right: 20px;
+}
 #str8>div{
     width:80%;
     margin:auto;
 }
+.lastSVG{
+    width:45px;
+}
+.foot_div{
+    padding-left:10px;
+}
+
+
+
