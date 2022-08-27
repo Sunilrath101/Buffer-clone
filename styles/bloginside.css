@@ -149,3 +149,25 @@ body {
     appearance: none;
     transition: .4s ease;
 }
+@media all and (min-width:320px) and (max-width:811px) 
+{
+    #blog_mid_inside
+    {
+display: grid;
+grid-template-columns:repeat(1,1fr);
+    }
+    #blog_mid_inside p,h1
+
+    {
+        width: 50%;
+    }
+    /* #blog_mid_inside img
+    {
+width: 80%;
+    } */
+    #insideblog_top
+    {
+        display: grid;
+grid-template-columns:repeat(1,1fr);
+    }
+}
