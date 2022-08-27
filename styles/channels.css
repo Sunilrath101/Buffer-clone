@@ -68,7 +68,7 @@ body{
 #channels{
     width:44%;
     position:absolute;
-    top:60px;
+    top:250px;
     left:35rem;
     padding:0px 20px;
 }
@@ -95,19 +95,19 @@ img{
     width:23%;
     border-radius: 100px;
 }
-h2{
+#all-div>div>h2{
     font-size:20px;
     margin-bottom: -10px;
 }
-p{
+#all-div>div>p{
     font-size: 19px;
     margin-bottom: -10px;
 }
-h4{
+#all-div>div>h4{
     margin-bottom:-10px;
     
-}
-h5{
+} */
+#all-div>div>h5{
     color:blue;
     margin-bottom:-10px;
 

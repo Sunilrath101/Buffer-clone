@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/banner.css" />
 </head>
 <body>
     <div id="navbar"></div>
@@ -148,7 +148,7 @@
     </div>
     <div id="three_img"><img src="https://static.buffer.com/cdn-cgi/image/w=640,quality=90,format=auto/marketing/static/team/about-team@2x-v2.jpg" alt=""></div>
     <div id="btn1"><a href="openblog.html">Get to know us better</a></div>
-    <div id="section-9"></div>
+    <div id="sec_9_box"></div>
 
     <!-- Footer Section -->
 
@@ -167,6 +167,7 @@
 <script type="module">
     import navbar from "./components/navbar.js";
     import footer from "./components/footer.js";
+
     import banner from "./components/banner.js";
   
     let nav = document.getElementById("navbar");
@@ -175,6 +176,6 @@
     let foot = document.getElementById("footer");
     foot.innerHTML = footer();
   
-    let bann = document.getElementById("section-9");
+    let bann = document.getElementById("sec_9_box");
     bann.innerHTML = banner();
   </script>
