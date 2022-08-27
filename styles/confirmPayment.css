@@ -294,7 +294,7 @@ input[type="number"]::-webkit-outer-spin-button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 85%;
+  width: 60%;
   min-width: 1000px;
   height: 90vh;
   background-color: white;
@@ -305,6 +305,72 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+}
+.confirmpart2 {
+  width: 35%;
+}
+.confirmpart1 {
+  width: 65%;
+}
+.creditCard {
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+}
+#form > input,
+#form > label,
+#form > div {
+  width: 100%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  margin-top: 15px;
+  /* height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  */
+}
+#form > label {
+  margin-left: 5px;
+}
+#form > input,
+#form > div > input {
+  font-size: large;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#form > div > input {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 10%;
+
+  padding: 10px 5px;
+}
+.back {
+  /* border: 1px solid red; */
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  margin-top: 70px;
+}
+.back > p:first-child {
+  color: rgb(44, 75, 255);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.back > p:first-child > span > i {
+  margin-right: 5px;
 }
 .hidden1 {
   display: none;
