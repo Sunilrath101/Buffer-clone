@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>channels</title>
+    <link rel="stylesheet" href="./styles/channels.css">
+    <link rel="stylesheet" href="./styles/loginNavbar.css">
+    <script src="https://kit.fontawesome.com/cdaeebd343.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="settings">
+        <p>Settings</p>
+        <p><a href="account.html"><i class="fa-solid fa-user"></i> Account</a></p>
+        <p><a href="billing.html"><i class="fa-solid fa-sack-dollar"></i> Billing</a></p>
+        <p><a href="channels.html"><i class="fa-solid fa-table-cells-large"></i> Channels</a></p>
+        <p><a href="organization.html"><i class="fa-solid fa-industry"></i> Organization</a></p>
+    </div>
+    <div id="channels">
+        <h1>Connect a new channel</h1>
+        <p>Looking for step-by-step instructions? Visit our Help Center to read our Getting Started guides and learn about supported channel types.</p>
+        <div id="all-div">
+            <div>
+                <img src="./resources/Publishing/start page.png" alt="">
+                <h2>Start Page</h2>
+                <p>A shareable landing page</p>
+                <h4>Learn more --></h4>
+                <h5>Create</h5>
+            </div>
+            <div>
+                <img src="./resources/Publishing/tiktok.png" alt="">
+                <h2>TikTok</h2>
+                <p>Business account</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+            </div>
+            <div>
+                <img src="./resources/Publishing/google.png" alt="">
+                <h2>Google Business Profile</h2>
+                <p>Account</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+            </div>
+            <div>
+                <img src="./resources/Publishing/insta.png" alt="">
+                <h2>Instagram</h2>
+                <p>Business account</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+            </div>
+            <div>
+                <img src="./resources/Publishing/face.png" alt="">
+                <h2>Facebook</h2>
+                <P>Page or Group</P>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+            </div>
+            <div>
+                <img src="./resources/Publishing/twiiter.png" alt="">
+                <h2>Twitter</h2>
+                <p>Profile</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+            </div>
+            <div>
+                <img src="./resources/Publishing/linkdin.png" alt="">
+                <h2>LinkedIn</h2>
+                <p>Page or Profile</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+
+            </div>
+            <div>
+                <img src="./resources/Publishing/pin.png" alt="">
+                <h2>Pinterest</h2>
+                <p>Business</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+
+            </div>
+            <div>
+                <img src="./resources/Publishing/shopify.png" alt="">
+                <h2>Shopify</h2>
+                <p>Store</p>
+                <h4>Learn more --></h4>
+                <h5>Connect</h5>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<script type="module">
+    import AfterLogin from "./components/Navbar_AfterLogin.js"
+    let nav=document.getElementById("navbar");
+    nav.innerHTML = AfterLogin();
+
+</script>

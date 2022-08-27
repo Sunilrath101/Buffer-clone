@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="./styles/account.css">
+    <link rel="stylesheet" href="./styles/loginNavbar.css">
+    <script src="https://kit.fontawesome.com/cdaeebd343.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="settings">
+        <p>Settings</p>
+        <p><a href="account.html"><i class="fa-solid fa-user"></i> Account</a></p>
+        <p><a href="billing.html"><i class="fa-solid fa-sack-dollar"></i> Billing</a></p>
+        <p><a href="channels.html"><i class="fa-solid fa-table-cells-large"></i> Channels</a></p>
+        <p><a href="organization.html"><i class="fa-solid fa-industry"></i> Organization</a></p>
+    </div>
+    <div id="account">
+        <h1>Account</h1>
+        <div>
+            <p>Email Address</p>
+            <input type="text" id="email">
+            <p id="border"></p>
+            <div>
+                <p>Cancel</p>
+                <p>Save Changes</p>
+            </div>
+            
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="text" id="password">
+            <p>If you'd like to change your password, enter a new password here</p>
+            <p id="border"></p>
+            <p id="change-pass">Change Password</p>
+        </div>
+        <div>
+            <p>Delete my Buffer Accounts</p>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+<script type="module">
+    import AfterLogin from "./components/Navbar_AfterLogin.js"
+    let nav=document.getElementById("navbar");
+    nav.innerHTML = AfterLogin();
+
+</script>

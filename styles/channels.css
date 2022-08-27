@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: Roboto sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration-line: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    
+}
+p{
+    font-family: Roboto, sans-serif;
+
+}
+#settings{
+    position:relative;
+    width:15%;
+    height:700px;
+    padding-left:30px;
+    border-right:1px solid black;
+    font-family: Roboto, sans-serif;
+}
+#settings>p:nth-child(4){
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color: rgb(71, 71, 225);
+    border-radius:5px;
+    
+}
+#settings>p:nth-child(2):hover{
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color:   rgb(155, 195, 154);;
+    border-radius:5px;
+    
+}
+#settings>p:nth-child(3):hover{
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color:  rgb(155, 195, 154);;
+    border-radius:5px;
+    
+}
+#settings>p:nth-child(5):hover{
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color: rgb(155, 195, 154);
+    border-radius:5px;
+    color:white;
+    
+}
+#settings>p:nth-child(4)>a{
+    color:white;
+}
+
+body{
+    background-color: rgb(238, 237, 227);
+}
+
+#channels{
+    width:44%;
+    position:absolute;
+    top:60px;
+    left:35rem;
+    padding:0px 20px;
+}
+#channels>h1{
+    margin-bottom: -10px;;
+}
+#all-div{
+    
+    text-align: center;
+    margin:auto;
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+
+}
+#all-div>div{
+    height: auto;
+    padding:20px 10px;
+    background-color:white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+img{
+    width:23%;
+    border-radius: 100px;
+}
+h2{
+    font-size:20px;
+    margin-bottom: -10px;
+}
+p{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+h4{
+    margin-bottom:-10px;
+    
+}
+h5{
+    color:blue;
+    margin-bottom:-10px;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/organization.css">
+    <link rel="stylesheet" href="./styles/loginNavbar.css">
+    <script src="https://kit.fontawesome.com/cdaeebd343.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="settings">
+        <p>Settings</p>
+        <p><a href="account.html"><i class="fa-solid fa-user"></i> Account</a></p>
+        <p><a href="billing.html"><i class="fa-solid fa-sack-dollar"></i> Billing</a></p>
+        <p><a href="channels.html"><i class="fa-solid fa-table-cells-large"></i> Channels</a></p>
+        <p><a href="organization.html"><i class="fa-solid fa-industry"></i> Organization</a></p>
+    </div>
+    <div id="channels">
+        <h1>Organization</h1>
+        <div id="organization">
+            <h3>My Organization</h3>
+            <p id="border"></p>
+            <h4>Creation Date</h4>
+            <p>August 23rd, 2022</p>
+            <h4>Organization Name</h4>
+            <input type="text" placeholder="My Organization" id="my-organization">
+            <p id="border"></p>
+            <p>Save Changes</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<script type="module">
+    import AfterLogin from "./components/Navbar_AfterLogin.js"
+    let nav=document.getElementById("navbar");
+    nav.innerHTML = AfterLogin();
+
+</script>
