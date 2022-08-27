@@ -48,7 +48,7 @@
     align-items: flex-start;
 }
 #footer > #footer_div > #f_div_boxes > #f_box1 > #f_logo > img{
-    width: 50%;
+    width: 130px;
 }
 .icons{
     /* border: 2px solid blue; */
@@ -85,7 +85,6 @@
 }
 .f_box2{
     /* border: 2px solid red; */
-    width: 26%;
     height: 100%;
 }
 .f_box2 > ul >li{
@@ -100,4 +99,33 @@
 .f_box2 > ul >li:nth-child(1){
     list-style: none;
     font-weight: 700;
+}
+
+
+
+/* ------------->------------->------------>-------------->------------> */
+/* MEDIA QUERY */
+/* ------------->------------->------------>-------------->------------> */
+
+@media all and (min-width:200px) and (max-width:999px) {
+
+    #footer > #footer_div > #f_div_boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer > #footer_div > #f_div_boxes > #f_box1{
+        justify-content: center;
+        align-items: center;
+    }
+    #footer > #footer_div > #f_div_boxes > #f_box1 > #f_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    #footer > #footer_div > #f_div_boxes > .f_box2{
+        margin-top: 80px;
+        text-align: center;
+    }
+    
 }

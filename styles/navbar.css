@@ -25,12 +25,12 @@
     gap: 12px;
     width: 13%;
 }
-#navbar > #nav-left > img{
+#navbar > #nav-left > a > img{
     width: 120px;
     height: 100%;
     fill: none;
 }
-#navbar > #nav-left > img+img{
+#navbar > #nav-left > a + img{
     width: 35%;
     height: 100%;
     fill: none;
@@ -90,6 +90,7 @@
     border: none;
     text-decoration: none;
     color: white;
+    line-height: 1;
 }
 .get-started-btn:hover{
     background-color: rgb(24, 46, 172);
@@ -234,6 +235,9 @@
 /* Navbar >>>>>>>>>>>>>>>>>>>>*/ 
 
 @media all and (min-width:598px) and (max-width:1100px) {
+    #navbar{
+        padding: 25px 30px;
+    }
     #navbar > #nav-mid {
         display: none;
     }
@@ -246,4 +250,41 @@
         width: 100%;
         margin: auto;
     }
+}
+
+
+@media all and (min-width:320px) and (max-width:597px) {
+    #navbar{
+        padding: 20px 25px;
+    }
+    #navbar > #nav-mid {
+        display: none;
+    }
+    #navbar > #nav-left > a > img{
+        width: 90px;
+    }
+    #navbar > #nav-right > #ham{
+        display: block;
+        width: 35px;
+    }
+    #navbar > #nav-right > #ham > img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    #navbar > #nav-right > a:first-child{
+        display: none;
+    }
+    .get-started-btn{
+        font-size: 13px;
+        height: 40px;
+        padding: 0px 15px;
+    }
+    .learn-more-btn{
+        font-size: 13px;
+        height: 40px;
+        padding: 0px 15px;
+    }
+
+
 }

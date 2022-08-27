@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/analytics-home.css" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <!-- <link rel="stylesheet" href="styles/index.css" /> -->
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/banner.css" />
@@ -36,14 +36,13 @@
       <div id="section-1">
         <div id="sec1_box">
           <div id="sec-1_left">
-            <h1>Grow your audience on social and beyond</h1>
+            <h1>Get in-depth insights to grow your brand on social media</h1>
             <p>
-              Buffer helps you build an audience organically. We’re a
-              values-driven company that provides affordable, intuitive,
-              marketing tools for ambitious people and teams.
+              Measure social media performance, create gorgeous reports, and get
+              recommendations to grow reach, engagement & sales.
             </p>
             <div id="sec-1_left_btns">
-              <a href="" class="get-started-btn">Get started now</a>
+              <a href="/signup.html" class="get-started-btn">Get started now</a>
               <a href="" class="learn-more-btn"> Watch video</a>
             </div>
           </div>
@@ -417,7 +416,7 @@
             <h1>
               Start using Analyze to grow your reach, engagement, and sales
             </h1>
-            <a href="" class="get-started-btn">Get started</a>
+            <a href="/signup.html" class="get-started-btn">Get started</a>
             <p>
               <span>No credit card required</span> <span>14-day free trial</span
               ><span>Cancel anytime</span>
@@ -754,18 +753,18 @@
 
       <!-- Footer Banner -->
 
-      <!-- <div id="section_9"></div> -->
+      <div id="section_9"></div>
     </div>
     <div id="footer"></div>
   </body>
 </html>
 
 <script type="module">
-  // import navbar from "./components/navbar.js";
+  import navbar from "./components/navbar.js";
   import subMenu from "./components/subMenu.js";
   import hamMenu from "./components/hamMenu.js";
-  // import banner from "./components/banner.js";
-  // import footer from "./components/footer.js";
+  import banner from "./components/banner.js";
+  import footer from "./components/footer.js";
 
   let nav = document.getElementById("navbar");
   nav.innerHTML = navbar();

@@ -475,6 +475,13 @@ video {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
+    #section-2 > #sec2_box > .sec2_b1_box{
+        padding: 20px 0;
+    }
+    #section-2 > #sec2_box > .sec2_b1_box > svg{
+        /* border: 2px solid red; */
+        height: 30px;
+    }
     #main > #section-3 > #sec3_box > #sec3_box1 > h1 {
         width: 86%;
     }
@@ -531,6 +538,9 @@ video {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+    #section-11 > #sec5_box2 {
+        margin-bottom: 200px;
+    }
     #left > svg, #right > svg {
         width: 10%;
     }
@@ -546,26 +556,5 @@ video {
 
 
 
-/* Delete before Push */
 
-.get-started-btn{
-    background-color: rgb(44, 75, 255);
-    padding: 12px 30px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
-    color: white;
-}
-.get-started-btn:hover{
-    background-color: rgb(24, 46, 172);
-}
-.learn-more-btn{
-    border: 1px solid rgb(44, 75, 255);
-    padding: 13px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: rgb(44, 75, 255);
-}
-.learn-more-btn:hover{
-    background-color: #d7dcfb;;
-}
+

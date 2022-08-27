@@ -43,6 +43,16 @@ h1 + p{
     color: rgb(169, 166, 166);
     margin-top: 10px;
 }
+#emailSent > div {
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+}
+#emailSent > div > #empty{
+    display: none;
+    color: red;
+    margin-top: 15px;
+}
 #enterOtp{
     width: 500px;
     display: flex;
@@ -80,12 +90,22 @@ button:hover{
 #resetPass{
     display: none;
 }
-#enterOtp > #wrong{
+#enterOtp > div {
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+}
+#enterOtp > div > button:nth-child(2){
+    display: none;
+    background-color: green;
+}
+#enterOtp > div > #wrong{
     display: none;
     color: red;
+    margin-top: 15px;
 }
-#resetPass > #notMatch{
+/* #resetPass > #notMatch{
     display: none;
     color: red;
-}
+} */
 
