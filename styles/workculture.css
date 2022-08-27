@@ -112,6 +112,10 @@ body {
     margin-top: 50px;
     
 }
+#how
+{
+margin: 0;
+}
 #guide12
 {
     display: flex;
