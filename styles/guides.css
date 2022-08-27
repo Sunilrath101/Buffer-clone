@@ -172,7 +172,16 @@ body {
     margin-top: 50px;
     
 }
-
+.box>img:hover {
+    box-shadow: 0 0 11px rgba(141, 31, 31, 0.7); 
+  }
+  .red2>img{
+    cursor: pointer;
+    transition: transform .2s;
+}
+.red2>img:hover {
+    transform: scale(1.1);
+}
 
 /* --------------------------------------------------------------------------------------- */
 #guide10

@@ -201,7 +201,9 @@ border-radius: 50%;
  width: 140%;
  height: 100%;
 }
-
+.box>img:hover {
+    box-shadow: 0 0 11px rgba(141, 31, 31, 0.7); 
+  }
 
 /* ----------------------------------------------------------------------------------------- */
 #subscribe_box_guide
@@ -311,6 +313,13 @@ border-radius: 50%;
     transition: transform .2s;
 }
 #red1>img:hover {
+    transform: scale(1.1);
+}
+.red2>img{
+    cursor: pointer;
+    transition: transform .2s;
+}
+.red2>img:hover {
     transform: scale(1.1);
 }
 @media all and (min-width:320px) and (max-width:811px) 
