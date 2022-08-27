@@ -11,7 +11,7 @@ function login() {
   }
 
   if (login_check) {
-    window.location.href = "signup.html";
+    window.location.href = "onboarding.html";
   } else if (email == "" || password == "") {
     alert("kindly enter all details");
   } else if (!login_check) {
