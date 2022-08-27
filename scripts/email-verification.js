@@ -25,7 +25,7 @@
       setInterval(function () {
         emailSent.style.display = "none";
         enterOTP.style.display = "none";
-        window.location.assign("analytics-dash.html");
+        window.location.assign("publishing_campaign.html");
       }, 2000);
     } else {
       wrongAlert.style.display = "block";
