@@ -81,7 +81,11 @@
 
 .get-started-btn{
     background-color: rgb(44, 75, 255);
-    padding: 12px 30px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
     border-radius: 5px;
     border: none;
     text-decoration: none;
@@ -92,7 +96,11 @@
 }
 .learn-more-btn{
     border: 1px solid rgb(44, 75, 255);
-    padding: 13px 30px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     border-radius: 5px;
     text-decoration: none;
     color: rgb(44, 75, 255);

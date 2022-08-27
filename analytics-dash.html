@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/analytics-dash.css" />
+    <link rel="stylesheet" href="./styles/loginNavbar.css" />
     <title>Analytics- Dashboard</title>
   </head>
   <body>
+    <!-- Navbar imported from Component -->
+
+    <div id="navbar123123"></div>
+
+    <!-- Main Code -->
+
     <div id="main">
       <div id="main-left">
         <div id="leftDiv">
@@ -252,3 +259,12 @@
     </div>
   </body>
 </html>
+
+<!-- Exporting from components -->
+
+<script type="module">
+  import AfterLogin from "./components/Navbar_AfterLogin.js";
+
+  let nav = document.getElementById("navbar123123");
+  nav.innerHTML = AfterLogin();
+</script>
