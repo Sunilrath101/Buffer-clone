@@ -84,6 +84,13 @@ body {
   /* border: 1px solid black; */
   /* gap: -50px; */
 }
+#guide7>div>img
+{
+    /* width: 50%; */
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    /* gap: -50px; */
+  }
 #guide8
 {
     width: 90%;
@@ -152,6 +159,7 @@ body {
 {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 #author_mid>div>h4,p
 {
@@ -190,11 +198,32 @@ body {
 }
 #guide12 img
 {
- width: 140%;
+ width: 120%;
  height: 100%;
 }
 
-
+#guide6>div>img
+{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#guide6>div>img:hover {
+    transform: scale(1.1);
+}
+#red>img{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#red>img:hover {
+    transform: scale(1.1);
+}
+#red1>img{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#red1>img:hover {
+    transform: scale(1.1);
+}
 /* ----------------------------------------------------------------------------------------- */
 #subscribe_box_guide
 {

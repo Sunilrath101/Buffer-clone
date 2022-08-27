@@ -152,11 +152,12 @@ body {
 {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 #author_mid>div>h4,p
 {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 #work4
 {
@@ -290,6 +291,19 @@ border-radius: 50%;
 #workculture3>div>image
 {
     width: 100%;
+}
+#happy
+{display: block;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#guide6>div>img
+{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#guide6>div>img:hover {
+    transform: scale(1.1);
 }
 @media all and (min-width:320px) and (max-width:811px) 
 {

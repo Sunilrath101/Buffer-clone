@@ -1,0 +1,284 @@
+#publish
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    gap: 40px;
+}
+#side
+{
+    padding-top: 20px;
+    margin-left: 20px;
+    position:fixed;
+    width: 25%;
+    height: auto;
+    /* display: grid; */
+    border-right: 1px solid grey;
+    display: grid;
+    justify-content: last baseline;
+    
+    /* justify-content: end; */
+    
+}
+#center
+{
+    margin-top: 80px;
+    margin-left: 30%;
+    width: 30%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+#right
+{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+#right>img
+{
+    width: 100%;
+    height: auto;
+}
+#add_channels
+{
+    margin-top: 450px;
+    /* width: 60%; */
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+
+.cJNZZh svg {
+    fill: rgb(255, 255, 255);
+}
+
+.bzsAGO {
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+user agent stylesheet
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.kpKzRr {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: inherit;
+}
+label {
+    outline: 1px solid #ee8900!important;
+}
+#calendar
+{
+    display: flex;
+}
+#campaign
+{
+    display: flex;
+}
+.dmkzih {
+    margin-top: 43px;
+    flex: 1 1 0%;
+}
+div {
+    /* outline: rgb(3, 108, 219) solid 1px !important; */
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+/* html, body, #root {
+    font-family: "Roboto";
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+} */
+:root {
+    --reach-tooltip: 1;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(89, 98, 106, 0.2);
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+.dvqdvJ {
+    -webkit-box-align: center;
+    align-items: center;
+    background: none transparent;
+    border: 0px;
+    border-radius: 4px;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 900;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin: -1px;
+    padding: 0px 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:60%;
+    height: 48px;
+    /* padding-left: 80px; */
+    color: white;
+    background-color: blue;
+    margin-top: 200px;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #231f20;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    /* font-size: 1.6rem;
+    line-height: 1.5em;
+    font-weight: 400; */
+    font-style: normal;
+    background: #fff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: inline;
+    
+    
+}
+#container
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#calendar
+{
+    width: 90%;
+    height: 40px;
+    /* border: 1px solid red; */
+    gap: 10px;
+    /* margin-top: 10px; */
+    /* padding-top: 20 */
+    border-radius: 5px;
+    ;
+    font-weight: 500;
+}
+#calendar div
+{
+    padding-top: 10px;
+}
+
+#campaign
+{
+    /* padding-top: 10px; */
+    width: 90%;
+    height: 40px;
+    /* border: 1px solid red; */
+    gap: 10px;
+    /* margin-top: 10px; */
+    /* padding-top: 20 */
+    
+    ;
+    border-radius: 5px;
+}
+#campaign>div
+{
+    padding-top: 10px;
+}
+#campaign>div+div 
+{
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    font-weight: 500;
+}
+#btn
+{
+    width: 90%;
+    height: 50px;
+    font-weight: 500;
+}
+#add_channels>button
+{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#p
+{
+    margin-left: 100px;
+}
+#last
+{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+#last>div>button
+{
+    width: 100%;
+}
+#last>div>button
+{
+    /* padding-top: 200; */
+    /* margin-top: 200px; */
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 6px;
+}
+#last>div+div{
+    margin-top: 10px;
+    color: royalblue;
+    cursor: pointer;
+}
+
+#ptag
+{
+    /* padding-top: 50px; */
+    margin-top: 100px;
+}
+#calendar
+{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#calendar:hover {
+    transform: scale(1.1);
+}
+
+#buttn
+{
+    cursor: pointer;
+}
+
+
