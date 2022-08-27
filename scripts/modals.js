@@ -30,3 +30,9 @@ document.addEventListener("keydown", function (e) {
     closeModal();
   }
 });
+
+document
+  .querySelector("#direct_to_start_page")
+  .addEventListener("click", () => {
+    window.location.href = "publishing_campaign.html";
+  });
