@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Login Startup page</title>
+    <link rel="stylesheet" href="./styles/Login_startup_page.css">
+    <link rel="stylesheet" href="./styles/loginNavbar.css">
+</head>
+<body>
+    <div id="navbar123123"></div>
+    <div id="mainlog">
+        <!-- upperpart -->
+       <!-- <div id="mainUpper"> -->
+        <h1 id="h1Tag">Choose a starting template!</h1>
+        <p id="pTag">If you don't find a template that matches your brand you can customize it on the next step</p>
+        <ul id="ulList">
+            <li id="li">All templates</li>
+        </ul>
+       <!-- </div> -->
+       <div>
+        <hr>
+       </div>
+      
+        <!-- imgSection -->
+        <div id="mainImgDiv">
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Default_X2.png" alt="">
+                </div>
+                <p class="para">Traveler</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Flower_X2.png" alt="">
+                </div>
+                <p class="para">Flowers shop</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Pizza_X2.png" alt="">
+                </div>
+                <p class="para">Pizza</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Alexoo_X2.png" alt="">
+                </div>
+                <p class="para">Alexoo</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Alba_X2.png" alt="">
+                </div>
+                <p class="para">Alba</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Novika_X2.png" alt="">
+                </div>
+                <p class="para">Novika</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Scott_X2.png" alt="">
+                </div>
+                <p class="para">Scott See</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Laurajames_X2.png" alt="">
+                </div>
+                <p class="para">Laura & James</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Simone_X2.png" alt="">
+                </div>
+                <p class="para">Simone</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/Wang_X2.png" alt="">
+                </div>
+                <p class="para">Wang</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/emmanuel_X2.png" alt="">
+                </div>
+                <p class="para">Emmanuel</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/mogli_X2.png" alt="">
+                </div>
+                <p class="para">Mogli</p>
+            </div>
+            <div class="imgDiv1">
+                <div class="imgdiv">
+                    <img src="https://buffer-start-page.s3.amazonaws.com/presets/SculptureNFT_X2.gif" alt="">
+                </div>
+                <p class="para">Sculpture NFT</p>
+            </div>
+        </div>
+           
+
+    </div>
+</body>
+</html>
+
+<script type="module">
+    import AfterLogin from "./components/Navbar_AfterLogin.js"
+
+    let nav=document.getElementById("navbar123123");
+    nav.innerHTML = AfterLogin()
+</script>
