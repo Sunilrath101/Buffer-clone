@@ -46,6 +46,7 @@
     font-size: 16px;
 }
 #main > #section-1 > #sec1_box > #sec-1_left > #sec-1_left_btns{
+    width: 10;
     display: flex;
     gap: 20px;
     margin-top: 40px;
@@ -72,20 +73,26 @@
     align-items: flex-start;
 }
 #section-2 > #sec2_box{
-    width: 1248px;
+    /* border: 2px solid black; */
+    width: 100%;
     height: auto;
-    margin: 0 134px;
     padding: 0 35px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 3%;
     justify-content: center;
     align-items: flex-start;
 }
 #section-2 > #sec2_box > .sec2_b1_box{
-    padding: 40px 30px;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
+}
+#section-2 > #sec2_box > .sec2_b1_box > svg{
+    /* border: 2px solid red; */
+    height: auto;
 }
 
 /* Section - 3 */
@@ -104,7 +111,7 @@
     /* border: 2px solid black; */
     height: auto;
     width: 1248px;
-    padding: 0 35px;
+    /* padding: 0 35px; */
 }
 #main > #section-3 > #sec3_box > #sec3_box1{
     /* width: auto; */
@@ -118,7 +125,7 @@
     text-align: center;
     width: 100%;
     font-family: 'Poppins', sans-serif;
-    margin: 0 0 32px;
+    /* margin: 0 0 32px; */
 }
 #main > #section-3 > #sec3_box > #sec3_box1 > p{
     width: 570px;
@@ -132,7 +139,8 @@
 #main > #section-4{
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 100%;
+    margin-top: 40px;
 }
 #main > #section-4 > img{
     width: 1840px;
@@ -153,8 +161,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 115px;
-    padding: 0 35px;
+    /* margin: 0 115px; */
+    /* padding: 0 35px; */
     height: auto;
     width: 980px;
 }
@@ -190,10 +198,10 @@
     font-size: 16px;
 }
 .sec-5_left_btns{
-    display: flex ;
+    display: flex;
     justify-content: flex-start;
     gap: 12px;
-
+    width: 1;
 }
 .section-5 > .sec5_box > .sec5_box1 > .sec5_b1_right{
     /* border: 2px solid red; */
@@ -224,11 +232,14 @@
     /* border: 2px solid red; */
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #section-6 > #sec6_div > h2{
     /* border: 2px solid black; */
     height: auto;
-    width: 40%;
+    width: 540px;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -347,7 +358,7 @@
 #section-7{
     position: relative;
     top: 100px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     border-top: 2px solid rgb(236, 233, 233);
 }
 #sec5_box{
@@ -421,6 +432,72 @@
 
 
 @media all and (min-width:320px) and (max-width:811px) {
-
-
+    #main > #section-1 > #sec1_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #main > #section-1 > #sec1_box > #sec-1_left, #main > #section-1 > #sec1_box > #sec-1_right {
+        width: 95%;
+        text-align: center;
+    }
+    #main > #section-1 > #sec1_box > #sec-1_left > #sec-1_left_btns {
+        justify-content: center;
+    }
+    #sec-1_left_btns > .learn-more-btn{
+        display: none;
+    }
+    #section-2 > #sec2_box {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    #section-2 > #sec2_box > .sec2_b1_box{
+        padding: 20px 0;
+    }
+    #section-2 > #sec2_box > .sec2_b1_box > svg{
+        /* border: 2px solid red; */
+        height: 30px;
+    }
+    #main > #section-3 > #sec3_box > #sec3_box1 > h1 {
+        width: 86%;
+        margin-right: 0px !important;
+    }
+    #main > #section-3 > #sec3_box > #sec3_box1 > p {
+        width: 80%;
+    }
+    .section-5 > .sec5_box > .sec5_box1 {
+        flex-direction: column;
+    }
+    .section-5 > .sec5_box > #reverse {
+        flex-flow: column-reverse;
+    }
+    .section-5 > .sec5_box > .sec5_box1 > .sec5_b1_left, .section-5 > .sec5_box > .sec5_box1 > .sec5_b1_right {
+        width: 95%;
+        text-align: center;
+    }
+    .section-5 > .sec5_box > .sec5_box1 > .sec5_b1_right > img{
+        margin-top: 30px;
+    }
+    .sec-5_left_btns{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec-5_left_btns > .get-started-btn, .sec-5_left_btns > .learn-more-btn{
+        width: 40%;
+        margin: auto;
+    }
+    #stats > #stats_box{
+        flex-direction: column;
+    }
+    #stats > #stats_box > .stats_b_box > h2{
+        flex-direction: column;
+        font-size: 32px !important;
+    }
+    #section-7 > #sec5_box > .sec5_box1{
+        flex-flow: column-reverse;
+    }
+    #section-8 > #marketing > #marketing_logo{
+        flex-direction: column;
+        gap: 30px 0;
+    }
 }

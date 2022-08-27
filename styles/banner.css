@@ -33,7 +33,7 @@
 #mid > #box3{ 
     /* border: 2px solid black; */
     height: 450px;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
 #mid > #box3 > #content{
     height: auto;
     /* border: 2px solid white; */
-    width: 600px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,10 +54,30 @@
     font-size: 24px;
     color: white;
     text-align: center;
+    width: 100%;
 }
 #mid > #box3 > #content > a{
     background-color: #e97284;
     color: white;
     width: 190px;
     margin-top: 50px;
+}
+
+
+
+/* ------------->------------->------------>-------------->------------> */
+/* MEDIA QUERY */
+/* ------------->------------->------------>-------------->------------> */
+
+/* BANNER >>>>>>>>>>>>>>>>>>>>*/ 
+
+@media all and (min-width:300px) and (max-width:1200px) {
+    #box1{
+        display: none;
+    }
+    #box2{
+        display: none;
+    }
+
+
 }

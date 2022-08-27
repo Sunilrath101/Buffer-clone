@@ -1,7 +1,7 @@
 function subMenu() {
-    return `
+  return `
     <div id="tools-menu-box">
-    <a href="https://www.google.com/"
+    <a href="/Tool_publishing.html"
       ><div class="menu-box">
         <div class="menu-icon">
           <svg
@@ -28,7 +28,7 @@ function subMenu() {
       </div></a
     >
 
-    <a href="https://www.google.com/"
+    <a href="/analytics-home.html"
       ><div class="menu-box">
         <div class="menu-icon">
           <svg
@@ -62,7 +62,7 @@ function subMenu() {
       </div></a
     >
 
-    <a href="https://www.google.com/"
+    <a href="/Tool_Engage.html"
       ><div class="menu-box">
         <div class="menu-icon">
           <svg
@@ -91,7 +91,7 @@ function subMenu() {
       </div></a
     >
 
-    <a href="https://www.google.com/"
+    <a href="/Tool_Startup.html"
       ><div class="menu-box">
         <div class="menu-icon">
           <svg

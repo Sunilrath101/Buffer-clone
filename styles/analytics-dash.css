@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    font-weight: 400;
 }
 h1, h2 {
     font-size: calc(1.375rem + (1vw - 3.75px) * 1.1268) !important;
@@ -13,10 +16,9 @@ h1, h2 {
     font-weight: 700 !important;
     /* margin: 0px 0px 1.5rem !important; */
 }
-p{
-    font-family: 'Poppins', sans-serif;
-    line-height: 16px;
-}
+
+   
+
 /* Get Started Buttons Utility Code */
 
 .get-started-btn{
@@ -74,8 +76,12 @@ p{
     font-size: 14px;
     font-weight: 500;
 }
+#main-left >  #leftDiv > a:first-child:hover{
+    color: white;
+}
 #main-left >  #leftDiv > a:first-child > svg{
     fill: white;
+    padding: 6px 0;
 }
 #main-left >  #leftDiv > .get-started-btn{
     padding: 3px 10px;
@@ -112,7 +118,18 @@ p{
     align-items: center;
     gap: 0 8px;
 }
-svg {
+#main-left >  #leftDiv #channels > a:hover, #main-left >  #leftDiv #tools > a:hover {
+    color:  rgb(44, 75, 255);
+}
+#main-left >  #leftDiv .get-started-btn > svg {
+    width: 8%;
+    fill: rgb(184, 184, 184);
+}
+#main-left >  #leftDiv #channels > a > svg {
+    width: 8%;
+    fill: rgb(184, 184, 184);
+}
+#main-left >  #leftDiv #tools > a > svg {
     width: 8%;
     fill: rgb(184, 184, 184);
 }

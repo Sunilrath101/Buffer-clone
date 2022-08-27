@@ -20,7 +20,10 @@
           id="email"
           placeholder="Enter your registered email"
         />
-        <button onclick="otpSent()">Send OTP</button>
+        <div>
+          <button onclick="otpSent()">Send OTP</button>
+          <p id="empty">Please enter email</p>
+        </div>
       </div>
 
       <!-- Enter OTP -->
@@ -29,13 +32,16 @@
         <h1>Enter OTP</h1>
         <p>Check mail for OTP</p>
         <input type="number" name="otp" id="otp" placeholder="Enter Otp" />
-        <button onclick="otpEntered()">Submit</button>
-        <p id="wrong">Wrong OTP. Enter correct OTP</p>
+        <div>
+          <button id="subBtn" onclick="otpEntered()">Submit</button>
+          <button id="veriBtn">Verified</button>
+          <p id="wrong">Wrong OTP. Enter correct OTP</p>
+        </div>
       </div>
 
       <!-- Enter New Password -->
 
-      <div id="resetPass" class="box">
+      <!-- <div id="resetPass" class="box">
         <h1>Reset Pass</h1>
         <p>Set new password</p>
         <input
@@ -52,43 +58,9 @@
         />
         <button onclick="passReseted()">Confirm</button>
         <p id="notMatch">Password did not match. Enter again.</p>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
 
-<script>
-  let emailSent = document.getElementById("emailSent");
-  let enterOTP = document.getElementById("enterOtp");
-  let resetPass = document.getElementById("resetPass");
-
-  function otpSent() {
-    emailSent.style.display = "none";
-    enterOTP.style.display = "block";
-  }
-
-  function otpEntered() {
-    let inputOTP = document.getElementById("otp").value;
-    let wrongAlert = document.getElementById("wrong");
-
-    if (inputOTP == 911009) {
-      emailSent.style.display = "none";
-      enterOTP.style.display = "none";
-      resetPass.style.display = "block";
-    } else {
-      wrongAlert.style.display = "block";
-    }
-  }
-
-  function passReseted() {
-    let newPass = document.getElementById("new-pass").value;
-    let confirmPass = document.getElementById("confirm-pass").value;
-    let notMatch = document.getElementById("notMatch");
-
-    if (newPass != confirmPass) {
-      notMatch.style.display = "block";
-    } else {
-      alert("Password reseted successfully");
-    }
-  }
-</script>
+<script src="scripts/email-verification.js"></script>
