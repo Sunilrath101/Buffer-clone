@@ -84,6 +84,14 @@ body {
   /* border: 1px solid black; */
   /* gap: -50px; */
 }
+#guide7>div>img
+{
+    border-radius: 50%;
+}
+#author_mid>div>img
+{
+border-radius: 50%;
+}
 #guide8
 {
     width: 90%;
@@ -278,6 +286,33 @@ border-radius: 50%;
 {
     width: 100%;
 }
+/* #guide12>div>img{
+ width: 100%;
+ height: 100%;
+} */
+
+#guide6>div>img
+{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#guide6>div>img:hover {
+    transform: scale(1.1);
+}
+#red>img{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#red>img:hover {
+    transform: scale(1.1);
+}
+#red1>img{
+    cursor: pointer;
+    transition: transform .2s;
+}
+#red1>img:hover {
+    transform: scale(1.1);
+}
 @media all and (min-width:320px) and (max-width:811px) 
 {
    #guide6
@@ -285,6 +320,11 @@ border-radius: 50%;
     display: grid;
     height: auto;
     grid-template-columns: repeat(1,1fr);
+   }
+   #guide6>div>img
+   {
+width: 120%;
+height: auto;
    }
    
    #guide9
