@@ -1,6 +1,6 @@
 
 
-function AfterLogin(){
+function AfterLogin() {
     return `  <div id="navbarLOG">
     <section class="sec_flex" id="sec1">
       <div id="logo">
@@ -106,7 +106,7 @@ function AfterLogin(){
       <button id="sub_reSend">Re-send verification email</button>
   </div>`
 }
-    //   important
+//   important
 // for css file use--> " <link rel="stylesheet" href="./styles/loginNavbar.css"> "
 
 export default AfterLogin;
