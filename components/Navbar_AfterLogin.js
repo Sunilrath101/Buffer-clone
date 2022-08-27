@@ -1,7 +1,5 @@
-
-
 function AfterLogin() {
-    return `  <div id="navbarLOG">
+  return `  <div id="navbarLOG">
     <section class="sec_flex" id="sec1">
       <div id="logo">
           <img id="img1" src="resources/buffer-logo.png" alt="">
@@ -33,10 +31,10 @@ function AfterLogin() {
                   </div>
                 </div>
               <div class="dropdown-menu">
-                  <a class="ancorTag"  href="">Buffer for iOS</a>
-                  <a class="ancorTag"  href="">Buffer for Android</a>
-                  <a  class="ancorTag" href="">Remix by Buffer</a>
-                  <a  class="ancorTag" href="">Integrations</a>
+                  <a class="ancorTag"  href="#">Buffer for iOS</a>
+                  <a class="ancorTag"  href="#">Buffer for Android</a>
+                  <a  class="ancorTag" href="#">Remix by Buffer</a>
+                  <a  class="ancorTag" href="#">Integrations</a>
               </div>
           </div>
       </div>
@@ -104,7 +102,7 @@ function AfterLogin() {
       <a class="ancorTag"  href="https://support.buffer.com/hc/en-us/articles/4563021461907-Verifying-your-Buffer-email-address?utm_source=buffer&amp;utm_medium=learn-more-link&amp;utm_campaign=learn-more" target="_blank" rel="noopener noreferrer">help guide</a>
       <p>for more info.</p>
       <button id="sub_reSend">Re-send verification email</button>
-  </div>`
+  </div>`;
 }
 //   important
 // for css file use--> " <link rel="stylesheet" href="./styles/loginNavbar.css"> "
