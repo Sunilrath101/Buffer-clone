@@ -182,96 +182,28 @@
   <!-- modal-2 start -->
   <div class="modal2 hidden2">
 
-    <div class="plans">
-      <h1>Confirm Plan</h1>
-      <div class="planType">
-        <div class="free plan">
-          <div class="part1">
-            <div>
-              <h3>Free</h3>
-              <i class="fa-regular fa-circle-check" id="check1"></i>
-            </div>
-            <p class="reduceFont">Simplify the noise and test out social media management tools.</p>
-            <h3>$ <span id="p-dooler">0</span> </h3>
-            <p>Per channel per month <br>
-              (charged yearly)</p>
+    <div class="plans confirmpart1">
+      <h1>Billing Details</h1>
+      <div class="creditCard">
+        <form action="" id="form">
+          <label for="">Credit card number</label>
+          <input type="number" placeholder="1234567891234567" id="creditCard">
+          <label for="">Month/Year</label>
+          <div>
+            <input type="number" placeholder="11" id="month">
+            <input type="number" placeholder="28" id="year">
           </div>
-          <div class="part2">
-            <h3>Features</h3>
-            <div class="features"><i class="fa-solid fa-check"></i>
-              <p>Basic publishing tools</p>
-            </div>
-            <div class="features"><i class="fa-solid fa-check"></i>
-              <p>Limited usage</p>
-            </div>
 
-
-
-          </div>
-        </div>
-        <div class="essentials plan">
-          <div class="part1">
-            <div>
-              <h3>Essentials</h3>
-              <i class="fa-regular fa-circle-check" id="check2"></i>
-            </div>
-            <p class="reduceFont">Get the most out of your creative with publishing, analytics & engagement tools.</p>
-            <h3>$ <span id="p-dooler">6</span> </h3>
-            <p>Per channel per month <br>
-              (charged yearly)</p>
-          </div>
-          <div class="part2">
-            <h3>Features</h3>
-            <div class="features"><i class="fa-solid fa-check"></i>
-              <p>Advanced publishing tools</p>
-            </div>
-            <div class="features"><i class="fa-solid fa-check"></i>
-              <p>Analytics & reporting</p>
-            </div>
-            <div class="features"><i class="fa-solid fa-check"></i>
-              <p>Engagement tools</p>
-            </div>
-
-
-          </div>
-        </div>
-        <div class="teamPack plan">
-          <div class="part1">
-            <div>
-              <h3>Essentials + Team Pack</h3>
-              <i class="fa-regular fa-circle-check" id="check3"></i>
-            </div>
-            <p class="reduceFont">Collaborate with your team in one place & save time reporting.</p>
-            <h3>$ <span id="p-dooler">12</span> </h3>
-            <p>Per channel per month <br>
-              (charged yearly)</p>
-          </div>
-          <div class="part2">
-            <h3>Features</h3>
-            <div class="features  features_last"><i class="fa-solid fa-check"></i>
-              <p>Basic publishing tools</p>
-            </div>
-            <div class="features features_last"><i class="fa-solid fa-check"></i>
-              <p>Limited usage</p>
-            </div>
-            <div class="features features_last"><i class="fa-solid fa-check"></i>
-              <p>Unlimited team members & clients</p>
-            </div>
-            <div class="features features_last"><i class="fa-solid fa-check"></i>
-              <p>Draft approval workflows</p>
-            </div>
-            <div class="features features_last"><i class="fa-solid fa-check"></i>
-              <p>Exportable PDF reports</p>
-            </div>
-
-
-
-          </div>
-        </div>
+          <label for="">CVV</label>
+          <input type="number" placeholder="748" id="cvv">
+        </form>
       </div>
-      <h3>Need more than 10 channels? <a href="#">Try our agency plan</a> </h3>
+      <div class="back">
+        <p> <span><i class="fa-solid fa-arrow-left"></i></span> Go back to plans</p>
+        <p> Payments securely processed by Stripe</p>
+      </div>
     </div>
-    <div class="summary">
+    <div class="summary confirmpart2">
       <button class="close-modal2">&times;</button>
       <h1>Summary</h1>
       <div class="summary1">
@@ -295,34 +227,18 @@
       <div class="summary2">
 
         <div class="summary2_1">
-          <div>
-            <p>Channels</p>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-shopify"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-square-google-plus"></i>
-          </div>
-          <div>
-            <button id="drease">-</button>
-            <input type="number" name="" id="number" value="1">
-            <button id="increase">+</button>
-          </div>
 
           <p>Your updated plan:</p>
           <h5 id="updatePlaninSummary">Essentials</h5>
           <div class="uders">
             <p><span id="channelsChange">2</span> channels</p>
-            <h6 id="userQuantityChange">One user</h6>
+            <h6 id="userQuantityChange1">One user</h6>
           </div>
           <hr>
-          <p>Total due today:</p>
-          <h1 class="finalamount1">$12</h1>
+          <p>New cost:</p>
+          <h1>$ <span class="lastPayment">360</span> /yr</h1>
           <hr>
-          <p><span class="finalamount2">$12</span> will be billed every month until canceled.</p>
+          <p>This will be billed every year until canceled.</p>
 
 
 
@@ -332,7 +248,7 @@
 
 
       </div>
-      <button class="gotoPayment">Go To Payment</button>
+      <button class="gotoPayment checkout">Confirm Payment</button>
 
 
 
