@@ -1,3 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+#navbarLOG{
+    display:flex ;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    gap:100px;
+    height:30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:20px;
+    /* border:2px solid; */
+}
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    padding:0px;
+    margin:0px;
+}
+.ancorTag {
+    display: block;
+}
+#navbarLOG>section{
+    width:100%;
+}
+.sec_flex{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#img1{
+    width:100px;
+    height: 25px;
+}
+#img2{
+    width:28px;
+    height: 20px;
+}
+.ancorTag{
+    text-decoration: none;
+    color:#636363
+}
+.nav-right>svg{
+    width:18px;
+}
+.svg1>svg{
+    width:22px;
+}
+.svg1{
+    display: flex;
+    justify-content: left;
+    padding:0px 5px;
+}
+.dropdown-menu>a{
+    display: block;
+    padding:5px 5px;
+    border-radius: 1px;
+    border:none;
+    margin-right:20px
+}
+.dropdown-menu{
+    display: none;
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-right1:hover .dropdown-menu{
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: #636363;
+    background-color:#fff;
+    height:60px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:-100px;
+    margin-top:20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+  .dropbtn>div{
+    display: flex;
+    justify-content: center;
+  }
+  .dropbtn>div>svg{
+    width:32px;
+  }
+  #invt{
+    margin-right:10px;
+    /* border:2px solid; */
+  }
+
+  #sec2>#invt>svg{
+    color:blue;
+    fill: currentcolor;
+  }
+  #sec2>#invt>a{
+    color:blue;
+    width:auto;
+  }
+  #sec2{
+    display: flex;
+    justify-content: space-between;
+  }
+  #last_nav_img>img{
+    width:40px;
+    margin-left:-10px;
+    border-radius: 50px;
+  }
+  #last_nav_svg{ 
+    width:28px; 
+    border:1px solid;
+    border-radius: 10px;
+   }
+  #last_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #useremail{
+    margin-right:50px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+  }
+  .imgLast{
+    width:10px;
+  }
+  #nav-last{
+    margin-top:165px;
+  }
+  #nav-last>#imgLastDiv{
+    /* background-color: #f1f1f1; */
+    margin-left:-190px;
+    margin-top:270px;
+    border: 0.01px solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    border-radius: 5px;
+    width:200px;
+    display: none;
+
+  }
+  #nav-last>#imgLastDiv>a{
+    padding:5px;
+  }
+  .nav_nav{
+    padding:10px 5px;
+    border-top: 0.01px solid #636363;
+  }
+  #inite{
+    padding:20px 5px;
+  }
+  #inite>a{
+    color:blue;
+  }
+  #inite>a>svg{
+    color:blue;
+    fill: currentcolor;
+  }
+
+  #last_nav:hover #nav-last>#imgLastDiv{
+    display: block;
+    background-color: #ddd;
+    position: relative;
+    top:0px;
+    right:0px;
+    z-index: 1000;
+  }
+  #last_nav:active #nav-last>#imgLastDiv{
+    color:green;
+    display: block;
+  }
+  #nav-last{
+    margin-top:0px;
+  }
+  a:hover{
+    color:blue;
+  }
+.para:hover{
+    color:blue;
+}
+.para:hover svg{
+     color:blue;
+     fill:currentColor;
+}
+#logo{
+    width:180px;
+}
+
+#butStart{
+  background-color: blue; 
+  color:#f1f1f1;
+  border-radius: 7px;
+  padding:10px;
+  border: none;
+}
+
+#sub_reSend{
+    background-color: rgb(99, 40, 6);
+    color:#f1f1f1;
+    border-radius: 7px;
+    padding:10px;
+    border: none;
+}
+
+#divStart{
+    background-color: rgb(30, 30, 119);
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#divStart>svg{
+  width:25px;
+  color:#fff;
+  fill:currentColor;
+}
+#divStart>p{
+  display: inline;
+  color:#f1f1f1;
+}
+#divReSend{
+  background-color: rgb(248, 196, 167);
+  padding:7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+#divReSend>p{
+  display: inline;
+}
+#divReSend>a{
+  display: inline;
+  text-decoration: underline;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+
+
+/* mobile view  */
+/* @media all and (min-width: 320px) and (max-width: 811px){
+  #navbarLOG{
+    width:auto;
+    flex-direction: column;
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index: 1000;
+    border: 2px solid ;
+    gap:0px;
+    /* margin-bottom:20px; */
+
+  /* } */
+      /* */ 
+/* } */
+
+
+ /* for Tab view */
+
+/* @media all and (min-width: 812px) and (max-width: 1100px){
+    #sec2{
+        display: block;
+    }
+    #sec1{
+        flex-direction: column;
+    }
+    
+    #sec1>a{
+        margin:10px;
+        color:red;
+        margin-left:-35px;
+    }
+    #sec1>#anchor{
+        margin-top:30px;
+    }
+    
+} */
+
 #publish
 {
     width: 100%;
@@ -9,11 +329,12 @@
 }
 #side
 {
-    padding-top: 20px;
+    padding-top: 30px;
+    /* margin-top: 20px; */
     margin-left: 20px;
-    position:fixed;
+    /* position:fixed; */
     width: 25%;
-    height: auto;
+    height: 800px;
     /* display: grid; */
     border-right: 1px solid grey;
     display: grid;
@@ -25,7 +346,7 @@
 #center
 {
     margin-top: 80px;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     width: 30%;
     height: auto;
     /* border: 1px solid black; */
