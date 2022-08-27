@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: Roboto sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration-line: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    
+}
+p{
+    font-family: Roboto, sans-serif;
+
+}
+#settings{
+    position:relative;
+    width:15%;
+    height:700px;
+    padding-left:30px;
+    border-right:1px solid black;
+    font-family: Roboto, sans-serif;
+}
+#settings>p:nth-child(3){
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color: rgb(71, 71, 225);
+    border-radius:5px;
+    
+}
+#settings>p:nth-child(2):hover{
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color:   rgb(155, 195, 154);;
+    border-radius:5px;
+    
+}
+#settings>p:nth-child(4):hover{
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color:  rgb(155, 195, 154);;
+    border-radius:5px;
+    
+}
+#settings>p:nth-child(5):hover{
+    width:80%;
+    padding:10px 0px;
+    padding-left:10px;
+    background-color: rgb(155, 195, 154);
+    border-radius:5px;
+    color:white;
+    
+}
+#settings>p:nth-child(3)>a{
+    color:white;
+}
+
+body{
+    background-color: rgb(238, 237, 227);
+}
+
+#billing{
+    position:absolute;
+    top:60px;
+    left:35rem;
+
+}
+#billing>div{
+    height:auto;
+    width:60%;
+    margin-top:20px;
+    padding:7px 20px;
+    background-color: white;
+    border-radius:5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+svg{
+    width:15%;
+    background-color:blue;
+    padding:10px 10px;
+    color:white;
+    border-radius: 100px;
+}
+#border{
+    border-bottom:1px solid black;
+}
+#billing>div>#trial{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+#billing>div>#trial>p{
+    padding:5px 10px;
+    background-color: rgb(32, 32, 230);
+    color:white;
+    border-radius: 5px;
+
+}
+#billing>div>#three{
+    text-align: center;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+#billing>div>#three>div{
+    padding:15px 0px;
+    background-color: rgba(244, 235, 235, 0.932);
+
+}
+#billing>div>#two{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-left:350px;
+}
+#billing>div>#two>p:last-child{
+    padding:5px 5px;
+    border:1px solid black;
+}
+#billing>#payment>p:last-child{
+    width:15%;
+    padding:5px 5px;
+    border:1px solid black;
+    margin-left:470px;
+    
+}
+
+#date>div{
+    display:flex;
+    justify-content:space-between ;
+    align-items:center;
+}
+
