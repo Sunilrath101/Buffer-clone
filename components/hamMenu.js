@@ -35,20 +35,20 @@ function hamMenu() {
           <div id="tool2">
             <li><a href="#" onclick="subMenuClose()">Tools v </a></li>
             <div>
-              <li><a href="/Tool_publishing.html">Publish</a></li>
-              <li><a href="/analytics-home.html">Analyze</a></li>
-              <li><a href="/Tool_Engage.html">Engage</a></li>
-              <li><a href="/Tool_Startup.html">Start Up</a></li>
+              <li><a href="Tool_publishing.html">Publish</a></li>
+              <li><a href="analytics-home.html">Analyze</a></li>
+              <li><a href="Tool_Engage.html">Engage</a></li>
+              <li><a href="Tool_Startup.html">Start Up</a></li>
             </div>
           </div>
           <li><a href="">Pricing</a></li>
           <li><a href="blog_homepage.html">Blog</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/customers.html">Customers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="customers.html">Customers</a></li>
           <li>
-            <a href="/signup.html" class="get-started-btn" id="ham-btn">Get started now</a>
+            <a href="signup.html" class="get-started-btn" id="ham-btn">Get started now</a>
           </li>
-          <li><a href="/login.html">Log in</a></li>
+          <li><a href="login.html">Log in</a></li>
         </ul>
       </div>`
 }

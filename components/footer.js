@@ -4,7 +4,7 @@ function footer() {
     <div id="f_div_boxes">
       <div id="f_box1">
         <div id="f_logo">
-          <img src="/resources/f-logo.png" alt="" />
+          <img src="resources/f-logo.png" alt="" />
         </div>
         <div id="f_content">
           <div class="icons">

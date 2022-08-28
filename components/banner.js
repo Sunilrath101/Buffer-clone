@@ -10,7 +10,7 @@ function banner() {
             140,000+ people like you use Buffer to build their brand on
             social media every month
           </h2>
-          <a href="/signup.html" id="red_btn" class="get-started-btn"
+          <a href="signup.html" id="red_btn" class="get-started-btn"
             >Get started now</a
           >
         </div>
