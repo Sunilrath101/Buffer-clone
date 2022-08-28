@@ -1,36 +1,42 @@
 
-  let emailSent = document.getElementById("emailSent");
-  let enterOTP = document.getElementById("enterOtp");
+let emailSent = document.getElementById("emailSent");
+let enterOTP = document.getElementById("enterOtp");
 
-  function otpSent() {
-    let enteredEmail = document.getElementById("email").value;
-    let emptyMail = document.getElementById("empty");
-    if (enteredEmail == "") {
-      emptyMail.style.display = "block";
-    } else {
+function otpSent() {
+  let enteredEmail = document.getElementById("email").value;
+  let emptyMail = document.getElementById("empty");
+  if (enteredEmail == "") {
+    emptyMail.style.display = "block";
+  } else {
+    emailSent.style.display = "none";
+    enterOTP.style.display = "block";
+  }
+}
+
+function otpEntered() {
+  let inputOTP = document.getElementById("otp").value;
+  let wrongAlert = document.getElementById("wrong");
+  let subBtn = document.getElementById("subBtn");
+  let veriBtn = document.getElementById("veriBtn");
+  let divReSend = document.getElementById("divReSend");
+
+  if (inputOTP == 911009) {
+    subBtn.style.display = "none";
+    veriBtn.style.display = "block";
+    setInterval(function () {
       emailSent.style.display = "none";
-      enterOTP.style.display = "block";
-    }
-  }
+      enterOTP.style.display = "none";
+      window.location.assign("publishing_campaign.html");
+    }, 2000);
+    divReSend.style.display = "none";
 
-  function otpEntered() {
-    let inputOTP = document.getElementById("otp").value;
-    let wrongAlert = document.getElementById("wrong");
-    let subBtn = document.getElementById("subBtn");
-    let veriBtn = document.getElementById("veriBtn");
 
-    if (inputOTP == 911009) {
-      subBtn.style.display = "none";
-      veriBtn.style.display = "block";
-      setInterval(function () {
-        emailSent.style.display = "none";
-        enterOTP.style.display = "none";
-        window.location.assign("publishing_campaign.html");
-      }, 2000);
-    } else {
-      wrongAlert.style.display = "block";
-    }
+  } else {
+    wrongAlert.style.display = "block";
   }
+}
+
+
 
   // function passReseted() {
   //   let newPass = document.getElementById("new-pass").value;
