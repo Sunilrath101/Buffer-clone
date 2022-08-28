@@ -350,12 +350,31 @@ h4{
 #str8>div{
     width:80%;
     margin:auto;
+   
 }
-.lastSVG{
-    width:45px;
+#str8>div>div{
+    margin-top:50px;
+    margin-bottom:50px;
+    /* border:2px solid red; */
+}
+#str8>div>div>svg{
+    width:20px;
+    height: 20px;
+    /* border:2px solid green; */
+}
+#str8>div>div>h5{
+    width:90%;
+    /* border:2px solid; */
+}
+#str8>div>div>.lastSVG{
+    /* width:100px; */
+    height:25px;
+    /* border:2px solid; */
+    /* margin-right:-30px; */
 }
 .foot_div{
     padding-left:10px;
+    margin:50px 0px;
 }
 
 
