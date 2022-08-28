@@ -17,7 +17,7 @@ body {
 }
 #mid_img>img
 {
-    cursor: pointer;
+    cursor: progress;
     transition: transform .2s;
 }
 #mid_img>img:hover {
@@ -101,6 +101,13 @@ width: 100%;
 #side_blog
 {
     display: flex;
+}
+a{
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
 }
 /* --------------------------------------------------------------------------------------------------------- */
 #subscribe_box
