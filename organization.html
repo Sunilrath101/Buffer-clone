@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./styles/loginNavbar.css">
     <script src="https://kit.fontawesome.com/cdaeebd343.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="navbar"></div>
     <div id="settings">
@@ -31,14 +33,16 @@
             <p>Save Changes</p>
         </div>
     </div>
-    
+
 </body>
+
 </html>
 
 
 <script type="module">
     import AfterLogin from "./components/Navbar_AfterLogin.js"
-    let nav=document.getElementById("navbar");
+    let nav = document.getElementById("navbar");
     nav.innerHTML = AfterLogin();
 
 </script>
+<script src="./scripts/updateEmail.js"></script>
