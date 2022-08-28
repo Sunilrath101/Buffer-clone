@@ -1,116 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
-body{
-    font-family: Roboto sans-serif;
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: Roboto sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration-line: none;
+a {
+  text-decoration-line: none;
 }
-h1{
-    font-family: 'Poppins', sans-serif;
-    
+h1 {
+  font-family: "Poppins", sans-serif;
 }
-p{
-    font-family: Roboto, sans-serif;
-
+p {
+  font-family: Roboto, sans-serif;
 }
-#settings{
-    position:relative;
-    width:15%;
-    height:700px;
-    padding-left:30px;
-    border-right:1px solid black;
-    font-family: Roboto, sans-serif;
+#settings {
+  position: relative;
+  width: 15%;
+  height: 700px;
+  padding-left: 30px;
+  border-right: 1px solid black;
+  font-family: Roboto, sans-serif;
 }
-#settings>p:nth-child(2){
-    width:80%;
-    padding:10px 0px;
-    padding-left:10px;
-    background-color: rgb(71, 71, 225);
-    border-radius:5px;
-    
+#settings > p:nth-child(2) {
+  width: 80%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  background-color: rgb(71, 71, 225);
+  border-radius: 5px;
 }
-#settings>p:nth-child(3):hover{
-    width:80%;
-    padding:10px 0px;
-    padding-left:10px;
-    background-color:   rgb(155, 195, 154);;
-    border-radius:5px;
-    
+#settings > p:nth-child(3):hover {
+  width: 80%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  background-color: rgb(155, 195, 154);
+  border-radius: 5px;
 }
-#settings>p:nth-child(4):hover{
-    width:80%;
-    padding:10px 0px;
-    padding-left:10px;
-    background-color:  rgb(155, 195, 154);;
-    border-radius:5px;
-    
+#settings > p:nth-child(4):hover {
+  width: 80%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  background-color: rgb(155, 195, 154);
+  border-radius: 5px;
 }
-#settings>p:nth-child(5):hover{
-    width:80%;
-    padding:10px 0px;
-    padding-left:10px;
-    background-color: rgb(155, 195, 154);
-    border-radius:5px;
-    color:white;
-    
+#settings > p:nth-child(5):hover {
+  width: 80%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  background-color: rgb(155, 195, 154);
+  border-radius: 5px;
+  color: white;
 }
-#settings>p:nth-child(2)>a{
-    color:white;
+#settings > p:nth-child(2) > a {
+  color: white;
 }
 
-body{
-    background-color: rgb(238, 237, 227);
+body {
+  background-color: aliceblue;
 }
 
-#account{
-    position:absolute;
-    top:250px;
-    left:35rem;
-
+#account {
+  position: absolute;
+  top: 250px;
+  left: 35rem;
 }
-#account>div{
-    height:auto;
-    margin-top:20px;
-    padding:7px 20px;
-    background-color: white;
-    border-radius:5px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+#account > div {
+  height: auto;
+  margin-top: 20px;
+  padding: 7px 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-input{
-    padding:6px 0px;
-    padding-right:260px;
-    padding-left:10px;
+input {
+  padding: 6px 0px;
+  padding-right: 260px;
+  padding-left: 10px;
 }
-#border{
-    border-bottom: 1px solid black;
+#border {
+  border-bottom: 1px solid black;
 }
-#account>div>div{
-    display:flex;
-    justify-content:end;
-    align-items: center;
-    gap:20px;
+#account > div > div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
 }
-#account>div>div>p:last-child{
-    padding:10px 12px;
-    background-color: rgb(92, 92, 216);
-    color:white;
-    border-radius:5px;
+#account > div > div > p:last-child {
+  padding: 10px 12px;
+  background-color: rgb(92, 92, 216);
+  color: white;
+  border-radius: 5px;
 }
-#account>div>#change-pass{
-    width:30%;
-    margin-left:300px;
-    padding:10px 12px;
-    background-color: grey;
-    color:white;
-    border-radius:5px;
-  
+#account > div > #change-pass {
+  width: 30%;
+  margin-left: 300px;
+  padding: 10px 12px;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
 }
-#account>div:last-child{
-    width:38%;
-    padding:1px 8px;
-    margin-left:295px;
-
+#account > div:last-child {
+  width: 38%;
+  padding: 1px 8px;
+  margin-left: 295px;
 }

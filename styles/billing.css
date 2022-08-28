@@ -61,7 +61,7 @@ p {
 }
 
 body {
-  background-color: rgb(238, 237, 227);
+  background-color: aliceblue;
 }
 
 #billing {
@@ -109,7 +109,7 @@ body {
 }
 #billing > div > #three > div {
   padding: 15px 0px;
-  background-color: rgba(244, 235, 235, 0.932);
+  background-color: aliceblue;
 }
 #billing > div > #two {
   display: flex;
