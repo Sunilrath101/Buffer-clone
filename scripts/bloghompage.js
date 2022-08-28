@@ -2,5 +2,8 @@ document.querySelector("#mid_img").addEventListener("click",myfunction)
  
 function myfunction()
 {
-    window.location.href="bloginside.html"
+    setTimeout(()=>
+    {
+        window.location.href="bloginside.html"
+    },2000);
 }

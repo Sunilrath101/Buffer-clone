@@ -15,6 +15,13 @@ body {
     
     
 }
+a{
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+}
 #insideblog_top
 {
     width: 85%;

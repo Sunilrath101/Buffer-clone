@@ -16,6 +16,13 @@ body {
     
     
 }
+a{
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+}
 #guide1
 {
     width: 90%;
