@@ -10,6 +10,7 @@ body{
     text-decoration: none;
     font-family: Roboto, sans-serif;
     /* margin:auto; */
+    /* text-align: center; */
 }
 p{
     font-size: 22px;
@@ -28,6 +29,7 @@ p{
 h2{
     font-family: 'Poppins', sans-serif;
 }
+
 .but:hover{
         transition-property: background-color, border-color, color;
         transition-duration: 0.1s;
@@ -40,11 +42,6 @@ h2{
     background-color: transparent;
 } 
 
-#navbar{}
-
-#pub1{
-   
-}
 #pub11{
     display: flex;
    
@@ -58,14 +55,8 @@ h2{
 }
 #pub111{
     margin:15px;
-    /* margin-left: 30px; */
-    /* margin-top: 58px; */
-    /* border:2px solid red; */
 }
-#pub112{
-  
 
-}
 #pub111>h1{
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
@@ -78,7 +69,6 @@ h2{
     font-size: 22px;
     width:78%;
     line-height: 45px;
-    /* margin-bottom:200px; */
     margin-left:-20px
 }
 button.but{
@@ -134,15 +124,10 @@ video{
     font-size: 21px;
     margin:auto;
 }
-#pub312{
-}
 #pub312>img{
     width:85%;
     height: 650px;
 }
-
-
-#pub4{}
 
 #pub411{
     display: flex;
@@ -152,13 +137,9 @@ video{
     margin:auto;
     
 }
-#pub411>div{
-   
-}
 #instagram{
     display: flex;
     align-items: center;
-    /* border:1px solid red; */
     justify-content: space-evenly;
     gap:20px;
     color:blue;
@@ -196,7 +177,6 @@ video{
     width:90vw;
     margin: auto;
     margin-top:60px;
-    /* border:2px solid red; */
 }
 
 #img4{
@@ -237,8 +217,6 @@ svg{
     height: 50px;
 }
 
-#pub5{}
-
 #pub51{
    display: flex;
    justify-content: space-evenly;
@@ -274,24 +252,14 @@ svg{
     display: flex;
     flex-direction: column;
 }
-/* #pub6>#pub61>button{
-    width:250px;
-    height: 100px;
-    text-align: center;
-    margin:auto;
-    margin-top:50px;
-    background-color: aqua;
-} */
 #pub61H2{
     width:40vw;
     line-height: 45px;
     font-size: 35px;
     margin:auto;
     text-align: center;
-    /* border:2px solid red; */
     margin-bottom:50px;
     margin-top:70px;
-
 }
 
 #pub61>ul{
@@ -327,9 +295,6 @@ svg{
     margin:auto;
     margin-top:30px;
 }
-
-#pub7{}
-
 #pub71{
     width:90%;
    
@@ -337,10 +302,8 @@ svg{
 }
 #pub711{
     width:95%;
-   
     margin:auto;
     display: flex;
-    /* gap:10px; */
     justify-content: space-around;
     align-items: center;
 }
@@ -368,14 +331,12 @@ svg{
     margin-top:100px;
 }
 #pub71122>div{
-    /* border:2px solid red; */
     padding-left: 0px;
 }
 #pub7111>img{
     width:100%
 }
 #pub71122>div>p{
-    /* width:95%; */
     font-size:15px;
     margin:10px 0px;
     line-height: 21px;
@@ -387,9 +348,7 @@ svg{
 #pub711>div{
     width:45%;
     height: 60%;
-   
 }
-#pub8{}
 #pub80{
     width:90%;
     margin:auto;
@@ -402,14 +361,10 @@ svg{
     display: flex;
     gap:0px 30px;
 }
-#pub81>div{
-    /* width:60% */
-}
 #pub81>div:nth-child(1){
     width:40%
 }
 #pub811>div>img{
-    /* border-radius: 100%; */
     width:100%;
     display: flex;
     flex-direction: right;
@@ -417,11 +372,6 @@ svg{
     margin-left:-50px;
     margin-bottom:100px;
 }
-#pub811>div{
-    /* border:2px solid blue; */
-}
-
-#pub9{}
 #pub921{
     display: flex;
 }
@@ -429,14 +379,6 @@ svg{
 #pub911{
     display: flex;
 }
-
-#pub10{}
-
-
-
-
-
-
 #pub10{
     background-color: #2C4BFF;
     color:#ffffff;
@@ -445,21 +387,12 @@ svg{
     display: flex;
     flex-direction: column;
 }
-/* #pub6>#pub61>button{
-    width:250px;
-    height: 100px;
-    text-align: center;
-    margin:auto;
-    margin-top:50px;
-    background-color: aqua;
-} */
 #pub101H2{
     width:40vw;
     line-height: 45px;
     font-size: 35px;
     margin:auto;
     text-align: center;
-    /* border:2px solid red; */
     margin-bottom:50px;
     margin-top:70px;
 
@@ -490,151 +423,13 @@ svg{
 }
 
 
-
-
-
-
-
-#pub11{}
-
 @media (min-width: 768px){
-    #navbar{
-
-    }
-    #pub1{}
-    
-    #pub2{}
-    
-    #pub3{}
-    
-    #pub4{}
-    
-    #pub5{}
-    
-    #pub6{}
-    
-    #pub7{}
-    
-    #pub8{}
-    
-    #pub9{}
-    
-    #pub10{}
-    
-    #pub11{}
+  
 }
 
 
 @media all and (min-width:401px) and (max-width:1100px){
-    .but{
-
-       
-    }
-    #navbar{
-
-    }
-    #pub>div{
-        width:100vw;
-        /* border:2px solid red; */
-    }
-    #pub1{
-        margin-top:50px;
-        width:96.5vw;
-        /* border:3px solid green; */
-    }
-    #pub112>video{
-        width:100%;
-    }
-
-    #pub11{
-        /* border:3px solid brown; */
-        flex-direction: column;
-        width:97vw;
-        margin:auto;
-        
-    }
-    #pub11>div{
-        width:99%;
-        margin:auto;
-    }
-
-    #pub111{
-     /* padding:150px; */
-      text-align: center;
-    }
-    /* p{
-        width:300px;
-    } */
-    #pub111>h1{
-        /* margin-left:-150px; */
-        width:99%;
-        text-align: center;
-        font-size: 1.8rem;
-        margin-bottom:20px;
-        /* border:3px solid green; */
-    }
-    #pub111>p{
-        line-height: 25px;
-        letter-spacing: 0px;
-        font-size: 16px;
-        width:95%;
-        text-align: center;
-        margin-bottom:30px;
-    }
-    #getStarted>button.but{
-        margin:auto;
-      
-        /* margin-left:31%; */
-    }
-    #getStarted{
-       
-        width:200px;
-        margin-left:31%;
-    }
-
-
-    #pub2{ }
-
-
-    
-    #pub3>div>div{
-        margin-top: 80px; 
-    }
    
-    #pub311>p{
-        line-height: 25px;
-        width:95%;
-        font-size: 16px;
-      /* background-color: aquamarine; */
-    }
-    #pub311>h2{
-        font-size: 25px;
-        width:90%;
-
-    }
-   
-    #pub312>img{
-        width:90%;
-        margin-top:-80px;
-        height: 350px;
-       
-    }
-
-    
-    #pub4{ }
-    
-    #pub5{ }
-    
-    #pub6{ }
-    
-    #pub7{ }
-    
-    #pub8{ }
-    
-    #pub9{ }
-    
-    #pub10{ }
-    
-    #pub11{ }
 
 }
+

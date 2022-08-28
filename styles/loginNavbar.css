@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-#navbarLOG{
-    display:flex ;
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    gap:100px;
-    height:30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding:20px;
-    /* border:2px solid; */
-}
+
 body{
     font-family: Roboto, sans-serif;
     font-weight: 700;
     padding:0px;
     margin:0px;
+}
+#navbarLOG{
+  display:flex ;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  gap:100px;
+  height:60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding:20px;
+  /* border:2px solid; */
 }
 .ancorTag {
     display: block;
@@ -152,6 +153,9 @@ body{
     border:1px solid;
     border-radius: 10px;
    }
+   /* #imgLastDiv{
+    display: block;
+   } */
   #last_nav{
     display: flex;
     justify-content: space-around;
@@ -165,8 +169,16 @@ body{
   .imgLast{
     width:10px;
   }
-  #nav-last{
-    margin-top:165px;
+  #lognavSVG{
+    display: block;
+    background-color: #ddd;
+    /* position: fixed;
+    top:20px;
+    right:0px; */
+    /* z-index: 1000; */
+    margin:0%;
+    margin-right:10px;
+    
   }
   #nav-last>#imgLastDiv{
     /* background-color: #f1f1f1; */
@@ -205,10 +217,10 @@ body{
     right:0px;
     z-index: 1000;
   }
-  #last_nav:active #nav-last>#imgLastDiv{
+  /* #last_nav:active #nav-last>#imgLastDiv{
     color:green;
     display: block;
-  }
+  } */
   #nav-last{
     margin-top:0px;
   }
@@ -240,6 +252,10 @@ body{
     border-radius: 7px;
     padding:10px;
     border: none;
+}
+#sub_reSend>a{
+  text-decoration: none;
+  color:#ddd;
 }
 
 #divStart{
