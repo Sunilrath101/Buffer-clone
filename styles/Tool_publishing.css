@@ -57,7 +57,7 @@ h2{
     margin:15px;
 }
 
-#pub111>h1{
+#pub111>h3{
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -87,6 +87,7 @@ video{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    /* border:2px solid; */
 }
 #section-2 > #sec2_box{
     width: 1248px;
@@ -102,22 +103,51 @@ video{
     padding: 40px 30px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* border:2px solid; */
+}
+#section-2 > #sec2_box > .sec2_b1_box >svg {
+    width:150px;
+    height: 100px;
 }
 
 
 #pub3{
     text-align: center;
 }
+#mainCont>#pub3>#pub31{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #pub311{
     margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-#pub311>h2{
-    font-size: 34px;
+#pub31{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#pub311{
+    /* border:3px solid blue; */
     width:700px;
     margin:auto;
-    margin-bottom:30px;
-    line-height: 45px;;
+
+}
+#pub3>#pub31>#pub311>h1{
+     /* font-size: 34px; */
+    width:700px;
+    /* margin-bottom:30px;
+    line-height: 45px;  */
+    /* border:2px solid red; */
+    /* margin:auto; */
+    text-align: center;
 }
 #pub311>p{
     width:750px;
@@ -252,15 +282,19 @@ svg{
     display: flex;
     flex-direction: column;
 }
+
 #pub61H2{
-    width:40vw;
-    line-height: 45px;
-    font-size: 35px;
+    width:40vw!important;
+    line-height: 45px!important;
+    font-size: 35px!important;
     margin:auto;
-    text-align: center;
-    margin-bottom:50px;
-    margin-top:70px;
+    text-align: center!important;
+    margin-bottom:50px!important;
+    margin-top:70px!important;
+    /* border: 2px solid red; */
+    /* margin-right: -100px!important; */
 }
+
 
 #pub61>ul{
     display: flex;
@@ -375,9 +409,22 @@ svg{
 #pub921{
     display: flex;
 }
+#pub91{
+    /* border:2px solid blue; */
+    width:90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
 
 #pub911{
     display: flex;
+    /* border: 2px solid green; */
+    justify-content: left;
+    align-items: center;
+   
+}
+#pub911>div>p:first-child{
+    color:blue
 }
 #pub10{
     background-color: #2C4BFF;
