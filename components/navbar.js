@@ -7,7 +7,7 @@ function navbar() {
         <div id="nav-mid">
             <ul>
             <li><a href="#" onmouseover="subMenu()" onmouseout="closeSubMenu()">Tools</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
             <li><a href="blog_homepage.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="customers.html">Customers</a></li>
