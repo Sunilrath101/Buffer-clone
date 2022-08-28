@@ -91,6 +91,7 @@
     text-decoration: none;
     color: white;
     line-height: 1;
+    cursor: pointer;
 }
 .get-started-btn:hover{
     background-color: rgb(24, 46, 172);
@@ -105,6 +106,7 @@
     border-radius: 5px;
     text-decoration: none;
     color: rgb(44, 75, 255);
+    cursor: pointer;
 }
 .learn-more-btn:hover{
     background-color: #d7dcfb;;
