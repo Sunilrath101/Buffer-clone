@@ -41,7 +41,7 @@ function hamMenu() {
               <li><a href="Tool_Startup.html">Start Up</a></li>
             </div>
           </div>
-          <li><a href="">Pricing</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog_homepage.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="customers.html">Customers</a></li>
