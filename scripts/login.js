@@ -6,6 +6,8 @@ function login() {
   for (let i = 0; i < users.length; i++) {
     if (email == users[i].email && password == users[i].password) {
       login_check = true;
+      let bufferEmal = users[i].email;
+      localStorage.setItem("bufferEmail", JSON.stringify(bufferEmal));
       break;
     }
   }
