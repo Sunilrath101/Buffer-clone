@@ -20,3 +20,7 @@ function login() {
     alert("kindly enter all details currently");
   }
 }
+
+document.querySelector("#thislogo").addEventListener("click", () => {
+  window.location.href = "home.html";
+});
