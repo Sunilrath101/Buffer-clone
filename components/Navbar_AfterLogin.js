@@ -101,7 +101,7 @@ function AfterLogin() {
       <p><strong>Verify your email:</strong> An email has been sent to your inbox to verify your email address. You can visit our</p>
       <a class="ancorTag"  href="https://support.buffer.com/hc/en-us/articles/4563021461907-Verifying-your-Buffer-email-address?utm_source=buffer&amp;utm_medium=learn-more-link&amp;utm_campaign=learn-more" target="_blank" rel="noopener noreferrer">help guide</a>
       <p>for more info.</p>
-      <button id="sub_reSend">Re-send verification email</button>
+      <button id="sub_reSend"><a href="email-verification.html">Re-send verification</a></button>
   </div>`;
 }
 //   important
