@@ -2,13 +2,9 @@
 Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Social Media Pages.
 # Travilla
 
-> Travilla is one of Asia's largest Holiday Home Rental Companies
-
-The Travilla website has been cloned by myself and my team of 4 members as project of our construct week at Masai School over 5 days.
-
 # Tech-Stacks
 
-- **Front-end:** HTML, CSS, JavaScript,ReactJs, Redux, ChakraUi, React-router-dom ,React-Redux.
+- **Front-end:** HTML, CSS, JavaScript.
 - **Version control:** Git and GitHub.
 - **Hosting:** Netlify
 
@@ -16,13 +12,8 @@ The Travilla website has been cloned by myself and my team of 4 members as proje
 
 - Transitioning accordions in various positions for various
   purposes.
-- Using fireBase for Authentication
-- One can list their hotel ,Room and other properties by clicking on create-property
 - Sign-in for users.
-- Private Routes
-- search for hotels
-- make payment
-- book homestays, appartment, villa
+- Pricing
 - dashboard
 
 ## Snapshots of the project
