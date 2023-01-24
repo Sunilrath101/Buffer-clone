@@ -20,7 +20,7 @@ Buffer is a software application for the web and mobile, designed to manage acco
 
 Landing page and navigation bar
 
-![LandingPage](/tripvillas/ReadmeImages/Home.png)
+![LandingPage](http://localhost:3000/static/media/buffer.ce6b58765eef5e1e3378.png)
 
 ---
 
