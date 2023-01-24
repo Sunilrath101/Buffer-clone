@@ -1,64 +1,41 @@
 # Buffer-clone
+
+## About
+
 Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Social Media Pages.
-# Travilla
 
-# Tech-Stacks
 
-- **Front-end:** HTML, CSS, JavaScript.
-- **Version control:** Git and GitHub.
-- **Hosting:** Netlify
+
+
+
+
+## It is an group Project.
+
 
 ## Features
 
-- Transitioning accordions in various positions for various
-  purposes.
-- Sign-in for users.
-- Pricing
-- dashboard
+- Signup
+- Login ( user login )
+- Navbar
+- Home Page
+- pricing
+- Product Page
+- Footer
 
-## Snapshots of the project
 
-Landing page and navigation bar
 
-![LandingPage](http://localhost:3000/static/media/buffer.ce6b58765eef5e1e3378.png)
+## Tech-Stack and library
 
----
+- HTML
+- CSS
+- JavaScript
 
-Travilla hotels page
 
-![LandingPage](/tripvillas/ReadmeImages/HotelList.png)
+<!-- ## Snapshots of the project
 
----
+Landing page and navigation bar -->
 
-Hotel Details page
 
-![LandingPage](/tripvillas/ReadmeImages/SingleHotel.png)
-
----
-
-Signup and sign-in pages
-
-![LandingPage](/tripvillas/ReadmeImages/SignIn.png)
-
----
-
-Payment Page
-
-![LandingPage](/tripvillas/ReadmeImages/Booking.png)
-
----
-
-Admin Dashboard
-
-![LandingPage](/tripvillas/ReadmeImages/Dashboard.png)
-
----
-
-Create Property section
-
-![LandingPage](/tripvillas/ReadmeImages/CreateProperty.png)
-
----
 ## Authors
 
 #### Vipul Vatsa
